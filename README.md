@@ -1,2 +1,11 @@
-# dataset-factory-site
-Dataset Factory catalogue [site-plan:87b1fd5a9bcf920c0396b0e6c08c52f89de1ba991df70e57245e59abb7a88db6]
+# Dataset Factory
+
+<!-- dataset-factory:links -->
+**Dataset Factory · v2026.09**
+
+[Dataset website](https://earino.github.io/austin-911-response/versions/v2026.09/) · [GitHub release](https://github.com/earino/austin-911-response/releases/tag/v2026.09) · [Hugging Face](https://huggingface.co/datasets/earino/austin-911-response/tree/v2026.09) · [Catalogue](https://earino.github.io/dataset-factory-site/)
+
+Artifact: e4598317e406984fa590aacc5e7aff675867578c51ae1a84ebf6279bc42c3328
+<!-- /dataset-factory:links -->
+
+Website sources and release records are managed by the dataset publication pipeline.
