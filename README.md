@@ -3,9 +3,9 @@
 <!-- dataset-factory:links -->
 **Dataset Factory · v2026.10**
 
-[Dataset website](https://earino.github.io/msha-enforcement-citations/versions/v2026.10/) · [GitHub release](https://github.com/earino/msha-enforcement-citations/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/msha-enforcement-citations/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
+[Dataset website](https://earino.github.io/chicago-food-inspections/versions/v2026.10/) · [GitHub release](https://github.com/earino/chicago-food-inspections/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/chicago-food-inspections/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
 
-Artifact: eff3c196ff7bda848991a4bb8bbf8c4e061d6f956217cfcfa54935ad8c96bda3
+Artifact: c951bf5b42a0bfd20fea52f645486ecbd450ebef9d8c5387f01af40f70b58102
 <!-- /dataset-factory:links -->
 
 Website sources and release records are managed by the dataset publication pipeline.
