@@ -1209,7 +1209,9 @@
     }
   },
   "baseline": {
-    "metrics": {},
+    "metrics": {
+      "Evaluation ROC AUC (median of 40 configs)": 0.7208
+    },
     "scope": "baselines only, through the runner's own contract. No coding agent and no harness comparison was run, and none is implied."
   },
   "configs": [
@@ -1285,11 +1287,11 @@
     "gate_version": "1.3.0",
     "result": "PASSED - 40/40 per-code configs, 32 checks each, 0 failed, 0 warnings, on the full artifact on the worker"
   },
-  "record_sha256": "338306f3fbc55c6111c065c0a7aff52099a756aad168b3cbbdad728d441bb3aa",
+  "record_sha256": "7795778417848182afb8cc72ef12bccfdba58cf0e1401848299164a6fc9bccb5",
   "release_date": "2026-10-20",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 1,
+  "site_revision": 2,
   "source": {
     "name": "Food Inspections - Chicago Department of Public Health (City of Chicago Data Portal)",
     "url": "https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5"
