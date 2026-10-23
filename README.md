@@ -3,9 +3,9 @@
 <!-- dataset-factory:links -->
 **Dataset Factory · v2026.09**
 
-[Dataset website](https://earino.github.io/austin-911-response/versions/v2026.09/) · [GitHub release](https://github.com/earino/austin-911-response/releases/tag/v2026.09) · [Hugging Face](https://huggingface.co/datasets/earino/austin-911-response/tree/v2026.09) · [Catalogue](https://earino.github.io/dataset-factory-site/)
+[Dataset website](https://earino.github.io/chicago-doah-adjudication/versions/v2026.09/) · [GitHub release](https://github.com/earino/chicago-doah-adjudication/releases/tag/v2026.09) · [Hugging Face](https://huggingface.co/datasets/earino/chicago-doah-adjudication/tree/v2026.09) · [Catalogue](https://earino.github.io/dataset-factory-site/)
 
-Artifact: e4598317e406984fa590aacc5e7aff675867578c51ae1a84ebf6279bc42c3328
+Artifact: b71586bf28fa56ebbfaede26c4494d68b166545ac504b2ebd8a52c7f272627ef
 <!-- /dataset-factory:links -->
 
 Website sources and release records are managed by the dataset publication pipeline.
