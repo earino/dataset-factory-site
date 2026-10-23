@@ -1,11 +1,11 @@
 # Dataset Factory
 
 <!-- dataset-factory:links -->
-**Dataset Factory · v2026.10**
+**Dataset Factory · v2026.09**
 
-[Dataset website](https://earino.github.io/my-pricecatcher-weekly-increase/versions/v2026.10/) · [GitHub release](https://github.com/earino/my-pricecatcher-weekly-increase/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/my-pricecatcher-weekly-increase/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
+[Dataset website](https://earino.github.io/noaa-tide-flooding/versions/v2026.09/) · [GitHub release](https://github.com/earino/noaa-tide-flooding/releases/tag/v2026.09) · [Hugging Face](https://huggingface.co/datasets/earino/noaa-tide-flooding/tree/v2026.09) · [Catalogue](https://earino.github.io/dataset-factory-site/)
 
-Artifact: 06c5cd6f8a74aef9d1fab048ab88f86e311385e68c0d25416b7ac5c0281a23cf
+Artifact: fb49f932c7b4ea5ab532c20f7dce59a7d733de925d1e172054ff1d38abe1eeed
 <!-- /dataset-factory:links -->
 
 Website sources and release records are managed by the dataset publication pipeline.
