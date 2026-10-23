@@ -33,7 +33,9 @@
     }
   },
   "baseline": {
-    "metrics": {},
+    "metrics": {
+      "Evaluation ROC AUC": 0.6219
+    },
     "scope": "One baseline through the runner's training and validation contract. No agent or harness comparison was run and none is implied."
   },
   "configs": [],
@@ -68,16 +70,29 @@
     "gate_version": "1.4.0",
     "result": "PASSED"
   },
-  "record_sha256": "a2e1caa53a5349b32c10c1c8ab4a9ed53720d85b34d1ab4f8d8a44a6db5cbf84",
+  "record_sha256": "75a7be5c5de59011b0d767936655d45eaade1a5a5138798aa427e82900887c42",
   "release_date": "2026-10-22",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 1,
+  "site_revision": 2,
   "source": {
     "name": "Australian Bureau of Statistics - Overseas Arrivals and Departures (OAD_COUNTRY)",
     "url": "https://www.abs.gov.au/statistics/industry/tourism-and-transport/overseas-arrivals-and-departures-australia"
   },
-  "splits": {},
+  "splits": {
+    "eval": {
+      "positives": 1204,
+      "rows": 4140
+    },
+    "holdout": {
+      "positives": 768,
+      "rows": 3920
+    },
+    "train": {
+      "positives": 6668,
+      "rows": 19071
+    }
+  },
   "summary": "Predict whether short-term visitor arrivals to Australia fall below last year's same month - 27,131 country-months from the ABS OAD panel.",
   "task_type": "binary-classification",
   "title": "Australian visitor arrivals, next month",
