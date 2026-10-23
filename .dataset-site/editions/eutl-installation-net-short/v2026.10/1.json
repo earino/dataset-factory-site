@@ -1,0 +1,108 @@
+{
+  "artifact_version": "3540ad2180d8df8a9ff39f5f6c1326c5e487ed20e28f189b9528eeb71f799f66",
+  "assets": {
+    "meta.json": {
+      "bytes": 2810,
+      "download": "https://github.com/earino/eutl-installation-net-short/releases/download/v2026.10/meta.json",
+      "hf_path": "meta.json",
+      "sha256": "b0e54387f5a5348dc381989a61f017248412c2c5f8220ad9f8a8f032735aa152"
+    },
+    "private-holdout.csv": {
+      "bytes": 1507248,
+      "download": "https://github.com/earino/eutl-installation-net-short/releases/download/v2026.10/private-holdout.csv",
+      "hf_path": "data/private-holdout.csv",
+      "sha256": "1c694e5e6b0bc0b329c5934e24037fb7229326ffac1806db6e0655fe0439de9b"
+    },
+    "public-eval.csv": {
+      "bytes": 1660374,
+      "download": "https://github.com/earino/eutl-installation-net-short/releases/download/v2026.10/public-eval.csv",
+      "hf_path": "data/public-eval.csv",
+      "sha256": "0d9f35d5393734a9a63457890a9c4177418199b2cae458b36a8687fdbd4253ab"
+    },
+    "public-train.csv": {
+      "bytes": 9421952,
+      "download": "https://github.com/earino/eutl-installation-net-short/releases/download/v2026.10/public-train.csv",
+      "hf_path": "data/public-train.csv",
+      "sha256": "c7f23c557d9605c92ba787d199922a1978f712f9b1069926ac5d63236331e903"
+    },
+    "quality.json": {
+      "bytes": 10270,
+      "download": "https://github.com/earino/eutl-installation-net-short/releases/download/v2026.10/quality.json",
+      "hf_path": "quality.json",
+      "sha256": "88222d66bfd02aa5f768791e5d8d8803822b3b63f21d4d2e6397c9b638bef87b"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Evaluation ROC AUC": 0.9199
+    },
+    "scope": "baseline only, through the runner's own contract. No agent or harness comparison was run, and none is implied."
+  },
+  "configs": [],
+  "dataset": "eutl-installation-net-short",
+  "domain": "Environment and climate policy",
+  "github_repository": "earino/eutl-installation-net-short",
+  "hf_repository": "earino/eutl-installation-net-short",
+  "licenses": {
+    "attribution": "European Commission, Directorate-General for Climate Action - Union Registry public extracts (EUTL), operators_yearly_activity daily extract, https://union-registry-data.ec.europa.eu/report/eu-registry-data-download, vintage of 2026-10-22. Contains Commission-owned content licensed under CC BY 4.0.",
+    "citation": "European Commission, Directorate-General for Climate Action. Union Registry Public Website, EUTL public extracts: operators' yearly activity data (daily extract). https://union-registry-data.ec.europa.eu/report/eu-registry-data-download. Licensed under CC BY 4.0 (Commission reuse policy). Derived dataset: EU ETS installation net-short prediction task (not a Commission official product).",
+    "code": "MIT",
+    "compilation_scope": "Our contribution - the installation-year row selection and eligibility frame, the derived net-short label, the settlement-lagged feature derivations, the temporal partition, and the packaging - is dedicated to the public domain under CC0-1.0. The dedication covers only our contribution: the underlying Union Registry public extracts keep their own designation and remain subject to the Commission's CC BY 4.0 reuse terms, whose attribution condition carries through to every copy of the derived data. Nothing here relicenses the source or presents CC0 as the source's terms.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "CC-BY-4.0"
+  },
+  "limitations": [
+    "The positive base rate rises over time - 45.5 percent in train, 74.0 in evaluation, 72.2 in holdout - because the free-allocation share fell while the cap declined. Read every score against the documented per-year prevalence.",
+    "The single column margin_t alone reaches an AUC near 0.90 under the gate's one-column sweep: the intended one-line rule nearly solves the task, so a model must beat it honestly rather than rediscover it.",
+    "Exact emission-allocation ties are labelled 0 and counted (4,224 rows); the label source values are excluded from every shipped file.",
+    "The panel ends at 2025 because the extract carries no numeric verified emissions for later years at the snapshot date."
+  ],
+  "post": {
+    "paragraphs": [
+      "This release ships 188,205 installation-years from the EU emissions trading system, covering compliance years 2006 through 2025. The panel is built from the European Commission's Union Registry public extracts: 617,448 rows over 23,748 installations across 32 registries, restricted to the years where both the year's allocation and the previous year's emissions are known.",
+      "The question is asked at the surrender deadline. By 30 April of year t, the installation's previous-year emissions are settled in the registry and its year-t free allocation is fixed and published. What is not yet known is the thing the task asks about: the year-t verified emissions, which operators report only by 31 March of the following year.",
+      "The baseline through the benchmark's own runner contract reaches an evaluation ROC AUC of 0.9199. On identical evaluation rows, a calendar-only rule reaches 0.527 and a persistence rule that repeats the previous year's net position reaches 0.8671. The full model clears persistence by 0.053, so the task is not a persistence exercise - but persistence is recorded beside every model number.",
+      "The splits are temporal: train years 2006 through 2019, evaluation 2020 through 2022, holdout 2023 through 2025. The labelled holdout ships with the release and stays outside any evaluated agent's workspace."
+    ],
+    "title": "A compliance-year shortfall task from the EU emissions trading registry"
+  },
+  "qualification": {
+    "gate_version": "1.4.0",
+    "result": "PASSED"
+  },
+  "record_sha256": "3d7c3e6de8c2285c1a6cc2c00aabe81e861d1b7c29a8515704c2b5bd24b4a883",
+  "release_date": "2026-10-22",
+  "release_tag": "v2026.10",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "European Commission, Directorate-General for Climate Action - Union Registry Public Website, EUTL public extracts (Data Download section), operators_yearly_activity daily extract",
+    "url": "https://union-registry-data.ec.europa.eu/report/eu-registry-data-download"
+  },
+  "splits": {
+    "eval": {
+      "positives": 18002,
+      "rows": 24322
+    },
+    "holdout": {
+      "positives": 15993,
+      "rows": 22151
+    },
+    "train": {
+      "positives": 64528,
+      "rows": 141732
+    }
+  },
+  "summary": "Predict whether a stationary EU ETS installation's verified emissions for compliance year t exceed the free allocation it holds for that year - a net-short year in which the operator must buy allowances. The prediction instant is the surrender deadline, 30 April of year t: the previous year's emissions are settled and reported, and the year-t allocation is already published. One row per installation and year, built from the European Commission's Union Registry public extracts.",
+  "task_type": "binary-classification",
+  "title": "EU ETS installation net-short",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/eutl-installation-net-short",
+    "github_release": "https://github.com/earino/eutl-installation-net-short/releases/tag/v2026.10",
+    "huggingface": "https://huggingface.co/datasets/earino/eutl-installation-net-short",
+    "huggingface_version": "https://huggingface.co/datasets/earino/eutl-installation-net-short/tree/v2026.10",
+    "version": "https://earino.github.io/eutl-installation-net-short/versions/v2026.10/",
+    "website": "https://earino.github.io/eutl-installation-net-short/"
+  }
+}
