@@ -73,11 +73,11 @@
     "gate_version": "1.3.0",
     "result": "PASSED - gate 1.3.0, 32/32 checks, 0 failed, on the full artifact on the worker; staging release 418940777; hand-off --accept ACCEPTED (2026-10-20)"
   },
-  "record_sha256": "ec34824ee72a4587b2ef4ff9f7fe6a30a1aabffbbfce17f04fc1e2a7c6663939",
+  "record_sha256": "5f2ed6bf02e797610280c6e94b0d7d9cb433f225294abd462ce362426745d4dd",
   "release_date": "2026-10-21",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 3,
+  "site_revision": 4,
   "source": {
     "name": "WHO FluNet - Global Influenza Programme (World Health Organization, Geneva)",
     "url": "https://www.who.int/tools/flunet"
