@@ -1,0 +1,146 @@
+{
+  "artifact_version": "afb46c6b29e6c4aa7668afcbd8f14c3f02ad56066bb7fbd5af263802740ad442",
+  "assets": {
+    "meta.json": {
+      "bytes": 2595,
+      "download": "https://github.com/earino/abs-visitor-arrivals-direction/releases/download/v2026.10/meta.json",
+      "hf_path": "meta.json",
+      "sha256": "23d9d0cb5aff72f7e6d062dd37a304b4e0b3c6b651b75462600ff13b61809610"
+    },
+    "private-holdout.csv": {
+      "bytes": 334714,
+      "download": "https://github.com/earino/abs-visitor-arrivals-direction/releases/download/v2026.10/private-holdout.csv",
+      "hf_path": "data/private-holdout.csv",
+      "sha256": "fda47a22596f6d18198ecaab61f78b2be924d6b3d594a97985b22b643fc2c051"
+    },
+    "public-eval.csv": {
+      "bytes": 360485,
+      "download": "https://github.com/earino/abs-visitor-arrivals-direction/releases/download/v2026.10/public-eval.csv",
+      "hf_path": "data/public-eval.csv",
+      "sha256": "6d92549ecba4175175f78044552af4f1da0270806db2c50d84bc8da9be1a1332"
+    },
+    "public-train.csv": {
+      "bytes": 1595889,
+      "download": "https://github.com/earino/abs-visitor-arrivals-direction/releases/download/v2026.10/public-train.csv",
+      "hf_path": "data/public-train.csv",
+      "sha256": "0077b1d05911745fbadb3f267cb0bcaaba2ad13f5ce2e62620e66bcac0d26c3e"
+    },
+    "quality.json": {
+      "bytes": 8541,
+      "download": "https://github.com/earino/abs-visitor-arrivals-direction/releases/download/v2026.10/quality.json",
+      "hf_path": "quality.json",
+      "sha256": "c9a867ab7ff58a34862063a68dac747d1833480a1c6e423e1157b00baf63ac5f"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Evaluation ROC AUC": 0.6219
+    },
+    "scope": "One baseline through the runner's training and validation contract. No agent or harness comparison was run and none is implied."
+  },
+  "configs": [],
+  "dataset": "abs-visitor-arrivals-direction",
+  "domain": "Tourism and migration statistics",
+  "github_repository": "earino/abs-visitor-arrivals-direction",
+  "hf_repository": "earino/abs-visitor-arrivals-direction",
+  "licenses": {
+    "attribution": "Source: Australian Bureau of Statistics",
+    "citation": "Australian Bureau of Statistics. Overseas Arrivals and Departures, Australia. ABS Data API; 2026. Derived dataset: next-month visitor-arrival shortfall.",
+    "code": "MIT",
+    "compilation_scope": "The lag-gated panel, row selection, derived label, features, splits and packaging are our work under CC0 1.0. Source rows remain CC BY 4.0.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "CC-BY-4.0"
+  },
+  "limitations": [
+    "Derived from ABS OAD under CC BY 4.0 (attribution required); compilation CC0. Not an ABS product.",
+    "The pandemic window 2020-01..2021-12 is excluded by construction and counted, so crisis behaviour is not represented.",
+    "The source is revised monthly; a later rebuild will not reproduce these bytes.",
+    "The holdout is labelled and ships with the release; isolate it for blind evaluation.",
+    "Direction labels of this kind are dominated by seasonality in some series; per-series scores are not published.",
+    "No claim of real-time or operational forecasting validity: historical feature and label availability at the prediction instant is assumed from a current source snapshot, not verified against release vintages.",
+    "The labeled eval split is development/validation. Final holdout scoring requires prediction-time access restrictions; the original scorer provided the complete feature frame. Downloadable holdout labels must stay outside model development."
+  ],
+  "post": {
+    "paragraphs": [
+      "The ABS releases arrivals statistics after their reference month. This task estimates the direction of the first unpublished month at the prior month’s release date. That target month may already have ended; this is not a next-calendar-month forecast issued before the month begins. Historical values come from a current revised snapshot, so exact as-of availability is assumed.",
+      "The question is a shortfall: will arrivals in the first unpublished month fall below the same month a year earlier. Positive rates run 35% / 29% / 20%, and the pandemic window is excluded rather than allowed to dominate.",
+      "Persistence is anti-correlated - repeating last year's direction scores 0.3647 - so this is mean-reversion and seasonality, not momentum. The runner-contract baseline reaches 0.6219 eval AUC, clearing the calendar-only rule at 0.5501 by 0.0718."
+    ],
+    "title": "A retrospective direction task from Australia’s arrivals panel"
+  },
+  "qualification": {
+    "gate_version": "1.4.0",
+    "result": "PASSED"
+  },
+  "record_sha256": "03281cdb280d3d8be5d4cd21c79a2836709dc391c3e2376f178c5bfaa279b8d6",
+  "release_date": "2026-10-22",
+  "release_tag": "v2026.10",
+  "schema_version": 1,
+  "site_revision": 3,
+  "source": {
+    "name": "Australian Bureau of Statistics - Overseas Arrivals and Departures (OAD_COUNTRY)",
+    "url": "https://www.abs.gov.au/statistics/industry/tourism-and-transport/overseas-arrivals-and-departures-australia"
+  },
+  "splits": {
+    "eval": {
+      "positives": 1204,
+      "rows": 4140
+    },
+    "holdout": {
+      "positives": 768,
+      "rows": 3920
+    },
+    "train": {
+      "positives": 6668,
+      "rows": 19071
+    }
+  },
+  "suitability": {
+    "artifact_version": "afb46c6b29e6c4aa7668afcbd8f14c3f02ad56066bb7fbd5af263802740ad442",
+    "corrections": [
+      "Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change."
+    ],
+    "cross_row_audit": {
+      "scope": "Independent operator-commissioned audit; predictions frozen before labels were opened; holdouts sealed; two AUC implementations in exact agreement",
+      "status": "recovery_demonstrated"
+    },
+    "dataset": "abs-visitor-arrivals-direction",
+    "decision": "retain_restricted",
+    "evaluation_access": "chronological",
+    "historical_availability": "assumed",
+    "limitations": [
+      "eval join (country, T) -> (country, T+1): the next row's val_m and val_m12 are the two operands of T's label",
+      "The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.",
+      "Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.",
+      "The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable."
+    ],
+    "release_tag": "v2026.10",
+    "reviewed_on": "2026-10-24",
+    "schema_version": 1,
+    "selection": "unverified",
+    "summary": "Retained for retrospective model-development research with documented timing limitations. Later evaluation rows expose earlier outcomes; predictions require restricted access.",
+    "supported_uses": [
+      "Retrospective train/validation model-development experiments under the documented timing and selection limitations",
+      "Final evaluation only under a protocol that isolates holdout data from development and prevents later rows influencing earlier predictions"
+    ],
+    "training_label_timing": "unverified",
+    "unsupported_uses": [
+      "Claims of verified real-time or operational forecasting validity",
+      "Treating development/validation scores as untouched final-test results",
+      "Forecasting scores from unrestricted cross-row access to this artifact"
+    ],
+    "vintage": "current_snapshot"
+  },
+  "summary": "Research task: predict whether short-term visitor arrivals to Australia fall below last year's same month - 27,131 country-months from the ABS OAD panel.",
+  "task_type": "binary-classification",
+  "title": "Australian visitor arrivals, first unpublished month",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/abs-visitor-arrivals-direction",
+    "github_release": "https://github.com/earino/abs-visitor-arrivals-direction/releases/tag/v2026.10",
+    "huggingface": "https://huggingface.co/datasets/earino/abs-visitor-arrivals-direction",
+    "huggingface_version": "https://huggingface.co/datasets/earino/abs-visitor-arrivals-direction/tree/v2026.10",
+    "version": "https://earino.github.io/abs-visitor-arrivals-direction/versions/v2026.10/",
+    "website": "https://earino.github.io/abs-visitor-arrivals-direction/"
+  }
+}

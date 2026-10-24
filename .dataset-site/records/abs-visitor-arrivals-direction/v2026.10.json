@@ -56,25 +56,27 @@
     "The pandemic window 2020-01..2021-12 is excluded by construction and counted, so crisis behaviour is not represented.",
     "The source is revised monthly; a later rebuild will not reproduce these bytes.",
     "The holdout is labelled and ships with the release; isolate it for blind evaluation.",
-    "Direction labels of this kind are dominated by seasonality in some series; per-series scores are not published."
+    "Direction labels of this kind are dominated by seasonality in some series; per-series scores are not published.",
+    "No claim of real-time or operational forecasting validity: historical feature and label availability at the prediction instant is assumed from a current source snapshot, not verified against release vintages.",
+    "The labeled eval split is development/validation. Final holdout scoring requires prediction-time access restrictions; the original scorer provided the complete feature frame. Downloadable holdout labels must stay outside model development."
   ],
   "post": {
     "paragraphs": [
-      "The ABS publishes Overseas Arrivals and Departures monthly. The contribution here is the lag-gated panel: 27,131 country-months across 70 residence series, split 19,071 train / 4,140 eval / 3,920 holdout, where every feature for month M is published when M is released, and the target month M+1 is not.",
+      "The ABS releases arrivals statistics after their reference month. This task estimates the direction of the first unpublished month at the prior month’s release date. That target month may already have ended; this is not a next-calendar-month forecast issued before the month begins. Historical values come from a current revised snapshot, so exact as-of availability is assumed.",
       "The question is a shortfall: will arrivals in the first unpublished month fall below the same month a year earlier. Positive rates run 35% / 29% / 20%, and the pandemic window is excluded rather than allowed to dominate.",
       "Persistence is anti-correlated - repeating last year's direction scores 0.3647 - so this is mean-reversion and seasonality, not momentum. The runner-contract baseline reaches 0.6219 eval AUC, clearing the calendar-only rule at 0.5501 by 0.0718."
     ],
-    "title": "A next-month direction task from Australia's arrivals panel"
+    "title": "A retrospective direction task from Australia’s arrivals panel"
   },
   "qualification": {
     "gate_version": "1.4.0",
     "result": "PASSED"
   },
-  "record_sha256": "75a7be5c5de59011b0d767936655d45eaade1a5a5138798aa427e82900887c42",
+  "record_sha256": "03281cdb280d3d8be5d4cd21c79a2836709dc391c3e2376f178c5bfaa279b8d6",
   "release_date": "2026-10-22",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 2,
+  "site_revision": 3,
   "source": {
     "name": "Australian Bureau of Statistics - Overseas Arrivals and Departures (OAD_COUNTRY)",
     "url": "https://www.abs.gov.au/statistics/industry/tourism-and-transport/overseas-arrivals-and-departures-australia"
@@ -93,9 +95,45 @@
       "rows": 19071
     }
   },
-  "summary": "Predict whether short-term visitor arrivals to Australia fall below last year's same month - 27,131 country-months from the ABS OAD panel.",
+  "suitability": {
+    "artifact_version": "afb46c6b29e6c4aa7668afcbd8f14c3f02ad56066bb7fbd5af263802740ad442",
+    "corrections": [
+      "Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change."
+    ],
+    "cross_row_audit": {
+      "scope": "Independent operator-commissioned audit; predictions frozen before labels were opened; holdouts sealed; two AUC implementations in exact agreement",
+      "status": "recovery_demonstrated"
+    },
+    "dataset": "abs-visitor-arrivals-direction",
+    "decision": "retain_restricted",
+    "evaluation_access": "chronological",
+    "historical_availability": "assumed",
+    "limitations": [
+      "eval join (country, T) -> (country, T+1): the next row's val_m and val_m12 are the two operands of T's label",
+      "The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.",
+      "Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.",
+      "The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable."
+    ],
+    "release_tag": "v2026.10",
+    "reviewed_on": "2026-10-24",
+    "schema_version": 1,
+    "selection": "unverified",
+    "summary": "Retained for retrospective model-development research with documented timing limitations. Later evaluation rows expose earlier outcomes; predictions require restricted access.",
+    "supported_uses": [
+      "Retrospective train/validation model-development experiments under the documented timing and selection limitations",
+      "Final evaluation only under a protocol that isolates holdout data from development and prevents later rows influencing earlier predictions"
+    ],
+    "training_label_timing": "unverified",
+    "unsupported_uses": [
+      "Claims of verified real-time or operational forecasting validity",
+      "Treating development/validation scores as untouched final-test results",
+      "Forecasting scores from unrestricted cross-row access to this artifact"
+    ],
+    "vintage": "current_snapshot"
+  },
+  "summary": "Research task: predict whether short-term visitor arrivals to Australia fall below last year's same month - 27,131 country-months from the ABS OAD panel.",
   "task_type": "binary-classification",
-  "title": "Australian visitor arrivals, next month",
+  "title": "Australian visitor arrivals, first unpublished month",
   "urls": {
     "catalog": "https://earino.github.io/dataset-factory-site/",
     "github": "https://github.com/earino/abs-visitor-arrivals-direction",
