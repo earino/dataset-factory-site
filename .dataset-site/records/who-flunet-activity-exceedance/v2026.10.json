@@ -59,7 +59,9 @@
     "Row eligibility depends on whether the target week was later observed - information unavailable at prediction time.",
     "Sentinel and non-sentinel surveillance are summed; 46% of source rows carry no origin label, so reporting-composition changes can look like activity changes.",
     "The shipped baseline is below the persistence reference (0.8700 vs 0.8929); it is a reproducible baseline, not a best-known solution.",
-    "The holdout is labelled and published by design; keep its labels outside an evaluated agent's workspace."
+    "The holdout is labelled and published by design; keep its labels outside an evaluated agent's workspace.",
+    "No claim of real-time or operational forecasting validity: historical feature and label availability at the prediction instant is assumed from a current source snapshot, not verified against release vintages.",
+    "The labeled eval split is development/validation. Final holdout scoring requires prediction-time access restrictions; the original scorer provided the complete feature frame. Downloadable holdout labels must stay outside model development."
   ],
   "post": {
     "paragraphs": [
@@ -73,11 +75,11 @@
     "gate_version": "1.3.0",
     "result": "PASSED - gate 1.3.0, 32/32 checks, 0 failed, on the full artifact on the worker; staging release 418940777; hand-off --accept ACCEPTED (2026-10-20)"
   },
-  "record_sha256": "5f2ed6bf02e797610280c6e94b0d7d9cb433f225294abd462ce362426745d4dd",
+  "record_sha256": "efed95ed75c523c908f11a2f038022235a29a35082318a0d39ed008ba2f26479",
   "release_date": "2026-10-21",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 4,
+  "site_revision": 5,
   "source": {
     "name": "WHO FluNet - Global Influenza Programme (World Health Organization, Geneva)",
     "url": "https://www.who.int/tools/flunet"
@@ -96,7 +98,44 @@
       "rows": 5779
     }
   },
-  "summary": "Predict whether a country's influenza test positivity will exceed 10% four weeks from now - a retrospective, observed-outcome forecasting task over WHO FluNet surveillance.",
+  "suitability": {
+    "artifact_version": "b1323a27fa02eb79de5fbb12c54068699ae15b3d44a9488942fd17ef0a4caffa",
+    "corrections": [
+      "Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change."
+    ],
+    "cross_row_audit": {
+      "scope": "Independent operator-commissioned audit; predictions frozen before labels were opened; holdouts sealed; two AUC implementations in exact agreement",
+      "status": "recovery_demonstrated"
+    },
+    "dataset": "who-flunet-activity-exceedance",
+    "decision": "retain_restricted",
+    "evaluation_access": "chronological",
+    "historical_availability": "assumed",
+    "limitations": [
+      "join (country, W) -> (country, W+28 days): the next row's inf_all_w and denom_w are the operands of T's label",
+      "The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.",
+      "Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.",
+      "The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable.",
+      "Splits use prediction week W although labels concern W+4; no label-availability embargo is enforced across train/validation or validation/holdout boundaries."
+    ],
+    "release_tag": "v2026.10",
+    "reviewed_on": "2026-10-24",
+    "schema_version": 1,
+    "selection": "unverified",
+    "summary": "Retained for retrospective model-development research with documented timing limitations. Later evaluation rows expose earlier outcomes; predictions require restricted access.",
+    "supported_uses": [
+      "Retrospective train/validation model-development experiments under the documented timing and selection limitations",
+      "Final evaluation only under a protocol that isolates holdout data from development and prevents later rows influencing earlier predictions"
+    ],
+    "training_label_timing": "unverified",
+    "unsupported_uses": [
+      "Claims of verified real-time or operational forecasting validity",
+      "Treating development/validation scores as untouched final-test results",
+      "Forecasting scores from unrestricted cross-row access to this artifact"
+    ],
+    "vintage": "current_snapshot"
+  },
+  "summary": "Research task: predict whether a country's influenza test positivity will exceed 10% four weeks from now - a retrospective, observed-outcome forecasting task over WHO FluNet surveillance.",
   "task_type": "binary-classification",
   "title": "WHO FluNet activity exceedance",
   "urls": {
