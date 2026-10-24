@@ -55,13 +55,15 @@
     "The positive base rate rises over time - 45.5 percent in train, 74.0 in evaluation, 72.2 in holdout - because the free-allocation share fell while the cap declined. Read every score against the documented per-year prevalence.",
     "The single column margin_t alone reaches an AUC near 0.90 under the gate's one-column sweep: the intended one-line rule nearly solves the task, so a model must beat it honestly rather than rediscover it.",
     "Exact emission-allocation ties are labelled 0 and counted (4,224 rows); the label source values are excluded from every shipped file.",
-    "The panel ends at 2025 because the extract carries no numeric verified emissions for later years at the snapshot date."
+    "The panel ends at 2025 because the extract carries no numeric verified emissions for later years at the snapshot date.",
+    "No claim of real-time or operational forecasting validity: historical feature and label availability at the prediction instant is assumed from a current source snapshot, not verified against release vintages.",
+    "The labeled eval split is development/validation. Final holdout scoring requires prediction-time access restrictions; the original scorer provided the complete feature frame. Downloadable holdout labels must stay outside model development."
   ],
   "post": {
     "paragraphs": [
       "This release ships 188,205 installation-years from the EU emissions trading system, covering compliance years 2006 through 2025. The panel is built from the European Commission's Union Registry public extracts: 617,448 rows over 23,748 installations across 32 registries, restricted to the years where both the year's allocation and the previous year's emissions are known.",
-      "The question is asked at the surrender deadline. By 30 April of year t, the installation's previous-year emissions are settled in the registry and its year-t free allocation is fixed and published. What is not yet known is the thing the task asks about: the year-t verified emissions, which operators report only by 31 March of the following year.",
-      "The baseline through the benchmark's own runner contract reaches an evaluation ROC AUC of 0.9199. On identical evaluation rows, a calendar-only rule reaches 0.527 and a persistence rule that repeats the previous year's net position reaches 0.8671. The full model clears persistence by 0.053, so the task is not a persistence exercise - but persistence is recorded beside every model number.",
+      "The intended decision point is 30 April of compliance year t, using prior-year emissions and year-t allocation. Those values come from current registry extracts; this release does not verify their original publication dates, revision histories, or availability at every historical cutoff. The outcome is year-t verified emissions exceeding year-t free allocation.",
+      "The recorded baseline achieved 0.9199 validation ROC AUC under the original runner protocol, compared with a tested calendar-only rule at 0.527 and a prior-year net-position rule at 0.8671. These are comparisons with those references, not evidence that later-row access is safe or that historical availability has been verified.",
       "The splits are temporal: train years 2006 through 2019, evaluation 2020 through 2022, holdout 2023 through 2025. The labelled holdout ships with the release and stays outside any evaluated agent's workspace."
     ],
     "title": "A compliance-year shortfall task from the EU emissions trading registry"
@@ -70,11 +72,11 @@
     "gate_version": "1.4.0",
     "result": "PASSED"
   },
-  "record_sha256": "3d7c3e6de8c2285c1a6cc2c00aabe81e861d1b7c29a8515704c2b5bd24b4a883",
+  "record_sha256": "e685027191d4b01f6e995d408bf0d7ba9b3847cc45bdcd7997f5a331aa29a50d",
   "release_date": "2026-10-22",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 1,
+  "site_revision": 2,
   "source": {
     "name": "European Commission, Directorate-General for Climate Action - Union Registry Public Website, EUTL public extracts (Data Download section), operators_yearly_activity daily extract",
     "url": "https://union-registry-data.ec.europa.eu/report/eu-registry-data-download"
@@ -93,7 +95,43 @@
       "rows": 141732
     }
   },
-  "summary": "Predict whether a stationary EU ETS installation's verified emissions for compliance year t exceed the free allocation it holds for that year - a net-short year in which the operator must buy allowances. The prediction instant is the surrender deadline, 30 April of year t: the previous year's emissions are settled and reported, and the year-t allocation is already published. One row per installation and year, built from the European Commission's Union Registry public extracts.",
+  "suitability": {
+    "artifact_version": "3540ad2180d8df8a9ff39f5f6c1326c5e487ed20e28f189b9528eeb71f799f66",
+    "corrections": [
+      "Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change."
+    ],
+    "cross_row_audit": {
+      "scope": "Independent operator-commissioned audit; predictions frozen before labels were opened; holdouts sealed; two AUC implementations in exact agreement",
+      "status": "recovery_demonstrated"
+    },
+    "dataset": "eutl-installation-net-short",
+    "decision": "retain_restricted",
+    "evaluation_access": "chronological",
+    "historical_availability": "assumed",
+    "limitations": [
+      "join (installation, t) -> (installation, t+1): the next row's net_short_l1 is T's label",
+      "The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.",
+      "Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.",
+      "The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable."
+    ],
+    "release_tag": "v2026.10",
+    "reviewed_on": "2026-10-24",
+    "schema_version": 1,
+    "selection": "unverified",
+    "summary": "Retained for retrospective model-development research with documented timing limitations. Later evaluation rows expose earlier outcomes; predictions require restricted access.",
+    "supported_uses": [
+      "Retrospective train/validation model-development experiments under the documented timing and selection limitations",
+      "Final evaluation only under a protocol that isolates holdout data from development and prevents later rows influencing earlier predictions"
+    ],
+    "training_label_timing": "unverified",
+    "unsupported_uses": [
+      "Claims of verified real-time or operational forecasting validity",
+      "Treating development/validation scores as untouched final-test results",
+      "Forecasting scores from unrestricted cross-row access to this artifact"
+    ],
+    "vintage": "current_snapshot"
+  },
+  "summary": "Retrospective research on whether an EU ETS installation's annual verified emissions exceed its free allocation. The intended prediction cutoff and historical registry availability remain assumptions in this current-snapshot panel.",
   "task_type": "binary-classification",
   "title": "EU ETS installation net-short",
   "urls": {
