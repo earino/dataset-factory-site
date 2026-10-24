@@ -3,9 +3,9 @@
 <!-- dataset-factory:links -->
 **Dataset Factory · v2026.10**
 
-[Dataset website](https://earino.github.io/chicago-food-inspections/versions/v2026.10/) · [GitHub release](https://github.com/earino/chicago-food-inspections/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/chicago-food-inspections/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
+[Dataset website](https://earino.github.io/msha-enforcement-citations/versions/v2026.10/) · [GitHub release](https://github.com/earino/msha-enforcement-citations/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/msha-enforcement-citations/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
 
-Artifact: c951bf5b42a0bfd20fea52f645486ecbd450ebef9d8c5387f01af40f70b58102
+Artifact: eff3c196ff7bda848991a4bb8bbf8c4e061d6f956217cfcfa54935ad8c96bda3
 
 ### Suitability and evaluation requirements
 
@@ -23,17 +23,17 @@ Retained for retrospective model-development research with documented timing lim
 
 Structural qualification and baseline scores do not certify operational forecasting validity.
 
-- reverse-history join through days_since_previous: a later inspection S with S.inspection_date - S.days_since_previous = T.inspection_date ships prev_target_cited, which is T's label
+- reverse-history join through days_since_previous: a later inspection S ships prev_target_cited for T
 - The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.
 - Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.
 - The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable.
-- Strictly earlier inspection dates exclude same-day history, but recorded inspection dates do not establish publication or outcome-availability times.
+- Prior outcomes are ordered by inspection start date, without checking when citations became known. Current mine attributes are applied to historical events. The scored pool includes inspections with recorded violations, not every inspection.
 
 **Corrections to the historical documentation:**
 
 - Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change.
 
-Review: 2026-10-24; applies to v2026.10 / `c951bf5b42a0bfd20fea52f645486ecbd450ebef9d8c5387f01af40f70b58102`. Frozen data and tags are unchanged.
+Review: 2026-10-24; applies to v2026.10 / `eff3c196ff7bda848991a4bb8bbf8c4e061d6f956217cfcfa54935ad8c96bda3`. Frozen data and tags are unchanged.
 <!-- /dataset-factory:links -->
 
 Website sources and release records are managed by the dataset publication pipeline.

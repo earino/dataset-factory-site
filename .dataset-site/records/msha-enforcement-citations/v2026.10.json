@@ -1427,11 +1427,13 @@
     "A derived research dataset from MSHA public-domain data, labelled as derived - not an official MSHA or Department of Labor product.",
     "The label is an enforcement outcome: what an inspector cited, not a measured hazard. Mines that are inspected more often generate more citations.",
     "Only sections cited in at least 1% of pooled inspections ship as configs, so this is not a census of 30 CFR.",
-    "A mine is the same entity across splits by design - prior history is the point of the task. The temporal split is what prevents leakage, and the holdout is labelled and downloadable: keep its labels outside an evaluated agent's workspace."
+    "A mine is the same entity across splits by design - prior history is the point of the task. The temporal split is what prevents leakage, and the holdout is labelled and downloadable: keep its labels outside an evaluated agent's workspace.",
+    "No claim of real-time or operational forecasting validity: historical feature and label availability at the prediction instant is assumed from a current source snapshot, not verified against release vintages.",
+    "The labeled eval split is development/validation. Final holdout scoring requires prediction-time access restrictions; the original scorer provided the complete feature frame. Downloadable holdout labels must stay outside model development."
   ],
   "post": {
     "paragraphs": [
-      "MSHA publishes its violations, inspections and mine records; anyone can download them. The contribution here is not access. It is the frozen panel of 497,897 inspections, the declaration that the prediction instant is the moment the visit begins, the prior-history features computed only from that mine's strictly-earlier inspections, the time-ordered partitions, and a leakage gate that held 45 per-section tasks to one contract.",
+      "This release packages 497,897 mine inspections into 45 per-section research tasks. Inspection start is the intended prediction instant. History is ordered by earlier inspection start dates, which does not establish that those inspections' citations were already available; current mine attributes also lack historical-vintage verification. The original leakage checks missed later-row outcome exposure, now documented in the suitability notice.",
       "The task is binary and per-section: will this inspection cite 30 CFR 56.12004? The label is the set of sections the inspector actually wrote, taken from the violation rows, so this is an enforcement outcome - what the inspector found - and not a hazard measurement. Each of the 45 shipped sections is a complete task instance over the identical pool: train 2001-2020, eval 2021-2023, holdout 2024-2025.",
       "The numbers are published with their floor. On the reference section sec_56_12004 the baseline reaches 0.8036 eval AUC, identical from the training path and an independent validation re-run. The persistence reference - the same model using only whether that section was cited at the mine's previous inspection - reaches 0.5831, so the full feature set clears it by 0.2205. Section prevalence ranges around 9-11% on the reference task; score AUC, not accuracy."
     ],
@@ -1441,11 +1443,11 @@
     "gate_version": "1.3.0",
     "result": "PASSED - 45/45 per-section configs, 32 checks each, 0 failed, on the full artifact on the worker"
   },
-  "record_sha256": "acbc86e2e38d9ca683572adc549c7b5388e6f8c85bdf30f516596fab43303d07",
+  "record_sha256": "07ae3c8a2039ce93907ee17f47cc0d5d502d01acc320197f211a472bb1cf9aac",
   "release_date": "2026-10-19",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 3,
+  "site_revision": 4,
   "source": {
     "name": "MSHA Open Government Data Sets: Violations, Inspections and Mines (Mine Safety and Health Administration, US Department of Labor)",
     "url": "https://www.msha.gov/data-and-reports/data-sources-and-calculators/data-resources/mdsrg/violations-data-set"
@@ -1461,7 +1463,44 @@
       "rows": 415088
     }
   },
-  "summary": "Predict whether a US mine safety inspection will cite a given 30 CFR section - one binary task instance per section, over 26 years of federal enforcement records.",
+  "suitability": {
+    "artifact_version": "eff3c196ff7bda848991a4bb8bbf8c4e061d6f956217cfcfa54935ad8c96bda3",
+    "corrections": [
+      "Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change."
+    ],
+    "cross_row_audit": {
+      "scope": "Independent operator-commissioned audit; predictions frozen before labels were opened; holdouts sealed; two AUC implementations in exact agreement",
+      "status": "recovery_demonstrated"
+    },
+    "dataset": "msha-enforcement-citations",
+    "decision": "retain_restricted",
+    "evaluation_access": "chronological",
+    "historical_availability": "assumed",
+    "limitations": [
+      "reverse-history join through days_since_previous: a later inspection S ships prev_target_cited for T",
+      "The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.",
+      "Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.",
+      "The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable.",
+      "Prior outcomes are ordered by inspection start date, without checking when citations became known. Current mine attributes are applied to historical events. The scored pool includes inspections with recorded violations, not every inspection."
+    ],
+    "release_tag": "v2026.10",
+    "reviewed_on": "2026-10-24",
+    "schema_version": 1,
+    "selection": "unverified",
+    "summary": "Retained for retrospective model-development research with documented timing limitations. Later evaluation rows expose earlier outcomes; predictions require restricted access.",
+    "supported_uses": [
+      "Retrospective train/validation model-development experiments under the documented timing and selection limitations",
+      "Final evaluation only under a protocol that isolates holdout data from development and prevents later rows influencing earlier predictions"
+    ],
+    "training_label_timing": "unverified",
+    "unsupported_uses": [
+      "Claims of verified real-time or operational forecasting validity",
+      "Treating development/validation scores as untouched final-test results",
+      "Forecasting scores from unrestricted cross-row access to this artifact"
+    ],
+    "vintage": "current_snapshot"
+  },
+  "summary": "Research task: predict whether a US mine safety inspection will cite a given 30 CFR section - one binary task instance per section, over 26 years of federal enforcement records.",
   "task_type": "binary-classification",
   "title": "MSHA enforcement citations",
   "urls": {
