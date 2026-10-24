@@ -1273,7 +1273,9 @@
     "Two of 40 configs (code_14 and code_32) do not beat their persistence reference. Recorded in measurements.json rather than left to be discovered.",
     "Label prevalence spans 0.15% to 56.1% across configs. Score AUC; accuracy is misleading on the sparse configs.",
     "The holdout is labelled and downloadable. Keep its labels outside the evaluated agent's workspace during an evaluation.",
-    "The source is the live register: a future refresh will not reproduce this exact panel, which is why the artifact version is pinned in the manifest."
+    "The source is the live register: a future refresh will not reproduce this exact panel, which is why the artifact version is pinned in the manifest.",
+    "No claim of real-time or operational forecasting validity: historical feature and label availability at the prediction instant is assumed from a current source snapshot, not verified against release vintages.",
+    "The labeled eval split is development/validation. Final holdout scoring requires prediction-time access restrictions; the original scorer provided the complete feature frame. Downloadable holdout labels must stay outside model development."
   ],
   "post": {
     "paragraphs": [
@@ -1287,11 +1289,11 @@
     "gate_version": "1.3.0",
     "result": "PASSED - 40/40 per-code configs, 32 checks each, 0 failed, 0 warnings, on the full artifact on the worker"
   },
-  "record_sha256": "4c12380b7bbcd78a530b87b842057fbed58420891414b48975cf3eaa3999c2ef",
+  "record_sha256": "a9cf26116a7c98e2d64b851abdbeee6f7e16ca50b413f596efc979eb2d5c2236",
   "release_date": "2026-10-20",
   "release_tag": "v2026.10",
   "schema_version": 1,
-  "site_revision": 3,
+  "site_revision": 4,
   "source": {
     "name": "Food Inspections - Chicago Department of Public Health (City of Chicago Data Portal)",
     "url": "https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5"
@@ -1307,7 +1309,44 @@
       "rows": 156841
     }
   },
-  "summary": "Predict whether a restaurant inspection will cite a given municipal code section - 40 binary task instances over 1.2 GB of Chicago's inspection record, with a frozen per-code split.",
+  "suitability": {
+    "artifact_version": "c951bf5b42a0bfd20fea52f645486ecbd450ebef9d8c5387f01af40f70b58102",
+    "corrections": [
+      "Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change."
+    ],
+    "cross_row_audit": {
+      "scope": "Independent operator-commissioned audit; predictions frozen before labels were opened; holdouts sealed; two AUC implementations in exact agreement",
+      "status": "recovery_demonstrated"
+    },
+    "dataset": "chicago-food-inspections",
+    "decision": "retain_restricted",
+    "evaluation_access": "chronological",
+    "historical_availability": "assumed",
+    "limitations": [
+      "reverse-history join through days_since_previous: a later inspection S with S.inspection_date - S.days_since_previous = T.inspection_date ships prev_target_cited, which is T's label",
+      "The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.",
+      "Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.",
+      "The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable.",
+      "Strictly earlier inspection dates exclude same-day history, but recorded inspection dates do not establish publication or outcome-availability times."
+    ],
+    "release_tag": "v2026.10",
+    "reviewed_on": "2026-10-24",
+    "schema_version": 1,
+    "selection": "unverified",
+    "summary": "Retained for retrospective model-development research with documented timing limitations. Later evaluation rows expose earlier outcomes; predictions require restricted access.",
+    "supported_uses": [
+      "Retrospective train/validation model-development experiments under the documented timing and selection limitations",
+      "Final evaluation only under a protocol that isolates holdout data from development and prevents later rows influencing earlier predictions"
+    ],
+    "training_label_timing": "unverified",
+    "unsupported_uses": [
+      "Claims of verified real-time or operational forecasting validity",
+      "Treating development/validation scores as untouched final-test results",
+      "Forecasting scores from unrestricted cross-row access to this artifact"
+    ],
+    "vintage": "current_snapshot"
+  },
+  "summary": "Research task: predict whether a restaurant inspection will cite a given municipal code section - 40 binary task instances over 1.2 GB of Chicago's inspection record, with a frozen per-code split.",
   "task_type": "binary-classification",
   "title": "Chicago food inspections",
   "urls": {
