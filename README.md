@@ -3,9 +3,9 @@
 <!-- dataset-factory:links -->
 **Dataset Factory · v2026.10**
 
-[Dataset website](https://earino.github.io/msha-enforcement-citations/versions/v2026.10/) · [GitHub release](https://github.com/earino/msha-enforcement-citations/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/msha-enforcement-citations/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
+[Dataset website](https://earino.github.io/my-pricecatcher-weekly-increase/versions/v2026.10/) · [GitHub release](https://github.com/earino/my-pricecatcher-weekly-increase/releases/tag/v2026.10) · [Hugging Face](https://huggingface.co/datasets/earino/my-pricecatcher-weekly-increase/tree/v2026.10) · [Catalogue](https://earino.github.io/dataset-factory-site/)
 
-Artifact: eff3c196ff7bda848991a4bb8bbf8c4e061d6f956217cfcfa54935ad8c96bda3
+Artifact: 06c5cd6f8a74aef9d1fab048ab88f86e311385e68c0d25416b7ac5c0281a23cf
 
 ### Suitability and evaluation requirements
 
@@ -23,17 +23,17 @@ Retained for retrospective model-development research with documented timing lim
 
 Structural qualification and baseline scores do not certify operational forecasting validity.
 
-- reverse-history join through days_since_previous: a later inspection S ships prev_target_cited for T
+- join (premise, item, T) -> (same pair, T+7 days): the next row's prices are the operands of T's label
 - The labelled holdout is presumed to carry the same self-answering structure by construction; it was never opened by the audit and must be treated as compromisable by the same join class.
 - Historical feature/label availability at the declared instant is assumed from current snapshots, not verified against release vintages.
 - The current scorer passes the complete feature frame to predict_proba; prediction-time isolation is instructed but not mechanically enforced, so any framework score on these files is gameable.
-- Prior outcomes are ordered by inspection start date, without checking when citations became known. Current mine attributes are applied to historical events. The scored pool includes inspections with recorded violations, not every inspection.
+- Observing same-day rows in one current bulk file does not verify historical weekly completeness or revision timing. Missing next-week outcomes restrict the scored population.
 
 **Corrections to the historical documentation:**
 
 - Public site page, Hub card and repository README must state the restricted suitability once rendered; no frozen package bytes change.
 
-Review: 2026-10-24; applies to v2026.10 / `eff3c196ff7bda848991a4bb8bbf8c4e061d6f956217cfcfa54935ad8c96bda3`. Frozen data and tags are unchanged.
+Review: 2026-10-24; applies to v2026.10 / `06c5cd6f8a74aef9d1fab048ab88f86e311385e68c0d25416b7ac5c0281a23cf`. Frozen data and tags are unchanged.
 <!-- /dataset-factory:links -->
 
 Website sources and release records are managed by the dataset publication pipeline.
