@@ -1,0 +1,316 @@
+{
+  "artifact_version": "a1f22706a52ba521dcb070d0a85877c552f5c62e8752af292e4a31ec27fdbe72",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 602,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "e57f4efc58458c984d794a4382de7399edbb91a0d4fd42ee1b789c6904c08735"
+    },
+    "LICENSE.md": {
+      "bytes": 1099,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "212c7304c98d73d099e5b1933adc493affe06a08c15ec99f43edbcc0df4f92c9"
+    },
+    "README.md": {
+      "bytes": 5561,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/README.md",
+      "hf_path": "README.md",
+      "sha256": "fb9b18c3eff990b0b3e1c3ce151748c8dd1044f4cf4b8ffb2454c91f80f1e271"
+    },
+    "SOURCES.json": {
+      "bytes": 870,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "7895d3fa40b049fb81845ccf936f7ac7ba0f870cc862dacf4346da88ee6c9793"
+    },
+    "evaluation.json": {
+      "bytes": 2281,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "68fa1b2f504a1ba91ffc34624a056e50e5d089972c13928d01ab9f6e8bbd8709"
+    },
+    "extract__meta.json": {
+      "bytes": 1534,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "d7758a8a144e87260b4a0a9a2866cd103473ac2dacec5b356d3da620c6e1d1ec"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 234676,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "2e1afa14e7782cc9f0aa2ae4ba38fce95204dd72fc80dcc517970764ec40c148"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 190917,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "006ae31a2ee497b03eba519dd9e5322051397db7e56fbcd99cf66033657a26d7"
+    },
+    "extract__public__train.csv": {
+      "bytes": 883120,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "0f4d0a02478caf671f78888ad423b1b30f8e9e8bb72963d785acdc57dd3f0d49"
+    },
+    "extract__quality.json": {
+      "bytes": 17863,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "dc96a5395474993eecabd9369e9a9c305a11b8dc83927cf54bd6ce9ce5e79907"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 17851,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "4cb5b34bf33fcdbff9bd6d4e4d74e190dc74ce75a4fb51b653a1a3689ba9e6ca"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 32631,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "83c612c6325b71e358d962750c56737f824cf2ed3d8751148a5f369c8e5ec73e"
+    },
+    "reproduction__construction.json": {
+      "bytes": 19338,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "3b668f1e98c1c80ebeada1e2b055eb9c60a318c404b1e7e73149a60bc1370c78"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "8880de985efd8e79e50bfe94346960358c3143b60c1ed423139fa2e3911da7bc"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 13983,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "037fd4fa903df1df7f940de84c6ff0597e79fbea87b268101243bfbfefebd001"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 8048,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "d7a3d42b5c16becd3941e07df2df9a5c205402b6169b836e673f7a20981c3346"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 31316477,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "da86ed891a237481035da79d58d460db80d4503448990934dc63f8851dcd0105"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/download/v-0d2e623e604ecf78/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.5030937303126253,
+      "Validation calendar_identity brier": 0.2508945361309057,
+      "Validation full_model auc": 0.6206483231470346,
+      "Validation full_model brier": 0.23681453246956263,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.24661408213974287
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "sbir-phase1-to-phase2-conversion",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "U.S. Small Business Administration (SBIR.gov)",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-sbir-phase1-to-phase2-conversion",
+  "hf_repository": "earino/factory-sbir-phase1-to-phase2-conversion",
+  "licenses": {
+    "attribution": "No attribution statement is specified by the publisher on SBIR.gov or in the SBIR/STTR Policy Directive; suggested courtesy line: 'Data: U.S. Small Business Administration, SBIR.gov award database'",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "U.S. Government work - not subject to copyright in the United States under 17 U.S.C. §105(a); SBA publishes every award record as an open download with no licence agreement, registration or click-through"
+  },
+  "limitations": [
+    "SBIR.gov is agency-reported and uneven across agencies and years; award_amount and number_employees are as-published values that may have been corrected after the award, so this is a current-vintage retrospective extract and not a snapshot of what an analyst saw on the award date.",
+    "There is no parent key linking a Phase II to its Phase I, so conversion is inferred from firm identifier, agency and award-year window; a small share of labels will be misassigned, for example when a repeat awardee's later Phase II is credited to the wrong Phase I.",
+    "Firm identity depends on UEI, DUNS or name matching, and DUNS is an optional field in the dictionary, so some firms may be merged or split across identifiers.",
+    "HHS awards omit proposal_award_date by design ('Yes, Except HHS' in the dictionary), so the decision instant is a fiscal year rather than an exact date for NIH awardees.",
+    "17 U.S.C. §105(a) is territorial: it removes copyright within the United States only and does not establish public-domain status elsewhere; downstream reuse outside the US needs its own analysis.",
+    "Award titles and abstracts are company-authored text and are excluded from the release rather than relicensed.",
+    "Phase III commercialisation data sit in a government-only database under the Policy Directive, so the observable horizon stops at the Phase II stage gate.",
+    "Firms whose first Phase I award falls after 2018 are excluded because their four-year outcome window is not closed at the freeze.",
+    "Annual award records are a current-vintage administrative extract; later corrections can revise earlier years, so historical availability is not proven.",
+    "The shipped time column award_date uses Proposal Award Date when it falls inside the award_year federal fiscal year; HHS awards do not publish that date, so the fiscal year end is used. Those rows share a fiscal-year-end event cluster and exact HHS award dates are not observed.",
+    "The published state column mixes two-letter USPS codes with full state and territory names; the builder canonicalizes both to codes, so the state feature is a normalized location rather than a verbatim copy of the source field.",
+    "No parent key links a Phase II award to its Phase I award; conversion is inferred by firm key and agency within four award years, so some labels may be misassigned.",
+    "Firm identity uses UEI, else DUNS, else normalized company name plus state; optional identifiers and name changes can merge or split firms.",
+    "HHS awards may omit proposal_award_date; the index time is the federal award year, and award_date falls back to fiscal year end rather than an exact date.",
+    "Same-year multiple Phase I awards are included only when proposal dates identify a unique earliest record; otherwise the firm is excluded rather than given an arbitrary row.",
+    "Phase II records with missing agency or an unknown or missing phase in a label window are excluded, not treated as negative.",
+    "No label-derived group rates or persistence reference are shipped; each firm appears once.",
+    "The target is an award-record event, not the underlying cause of non-conversion; voluntary exit and temporary suspension are not separately observed.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "Will a firm's first-ever SBIR/STTR Phase I award convert into a Phase II award from the same agency within four fiscal years?",
+      "Population: Firms whose earliest award record in the frozen SBIR.gov no-abstract file is a Phase I award with award_year from 2005 through 2018 and a resolvable firm key: UEI, else DUNS, else normalized company name plus state. Firms with any earlier award record of either phase, or whose earliest record is Phase II, are excluded. Each firm contributes one row; same-year multiple Phase I records are included only when proposal_award_date identifies a unique earliest record.",
+      "Target: 1 if the same firm (matched on UEI, else DUNS, else normalised company name plus state) has any Phase II record from the same agency with award_year in {y+1, y+2, y+3, y+4}, where y is the Phase I award_year; 0 if no such record exists in the frozen file. Rows are dropped when no firm identifier can be resolved or when y+4 exceeds the last complete award year in the file.",
+      "Prediction time: The Phase I award date: proposal_award_date when published and inside the federal fiscal year of award_year; otherwise the fiscal year end of award_year. Only fields on the index Phase I award record are read.",
+      "Splits: Chronological on Phase I award_year, fixed before any measurement: train 2005-2014, eval 2015-2016, holdout 2017-2018. No embargo is applied, because every feature is read from the Phase I record at its own award year and no label value is ever an input; the only timing rule is that each row's four-year window (ending at most 2022 for the 2018 cohort) must be closed inside the frozen file.",
+      "Outcome horizon: Up to four federal fiscal years after the Phase I award year.",
+      "Inputs: agency: Two-to-four character code of the agency making the Phase I award; branch: Agency sub-component, mandatory for DoD awards and otherwise may be blank; program: SBIR or STTR; award_year: Federal fiscal year of the index Phase I award; used as a feature and split key; award_amount: Dollar amount of the Phase I award only, never Phase II money; topic_code: Code or number of the solicitation topic or subtopic addressed by the Phase I award; state: Two-letter USPS state or territory code of the awardee address; full state names in the source are converted to the matching code; number_employees: Whole number of employees reported for the firm, 0-500; hubzone_owned: Whether the firm is HUBZone-owned: Y, N, or U for unavailable; women_owned: Whether the firm is at least 51 percent women-owned: Y, N, or U; socially_economically_disadvantaged: Whether the firm is socially and economically disadvantaged: Y, N, or U"
+    ],
+    "title": "Sbir PHASE1 To PHASE2 Conversion"
+  },
+  "publication_commits": {
+    "github": "92794d7d9f574106c33a3cc6c75efebc73431731",
+    "huggingface": "74307076ea17e8d9177e6b06bfa096cc6921c33e"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "59aea2b27d6e453573ebe43890a49b797595a4983d9137783cf4265d1bec1255",
+  "release_date": "2026-11-14",
+  "release_schema": "factory-1",
+  "release_tag": "v-0d2e623e604ecf78",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "U.S. Small Business Administration (SBIR.gov)",
+    "url": "https://www.sbir.gov/data-resources/data-dictionary/award"
+  },
+  "splits": {
+    "eval": {
+      "rows": 1408
+    },
+    "holdout": {
+      "rows": 1704
+    },
+    "train": {
+      "rows": 6574
+    }
+  },
+  "summary": "Will a firm's first-ever SBIR/STTR Phase I award convert into a Phase II award from the same agency within four fiscal years?",
+  "task_type": "binary-classification",
+  "title": "Sbir PHASE1 To PHASE2 Conversion",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion",
+    "github_release": "https://github.com/earino/factory-sbir-phase1-to-phase2-conversion/releases/tag/v-0d2e623e604ecf78",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-sbir-phase1-to-phase2-conversion",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-sbir-phase1-to-phase2-conversion/tree/v-0d2e623e604ecf78",
+    "version": "https://earino.github.io/factory-sbir-phase1-to-phase2-conversion/versions/v-0d2e623e604ecf78/",
+    "website": "https://earino.github.io/factory-sbir-phase1-to-phase2-conversion/"
+  }
+}
