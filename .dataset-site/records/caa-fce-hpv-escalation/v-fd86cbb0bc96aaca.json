@@ -1,0 +1,320 @@
+{
+  "artifact_version": "2a1b8fe5efdf2f0bae9a7777de98d0019bb70404c8aafbe0291a615e93f0573b",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 709,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "b3f442788bad4896117fd25950fcef0ac25543eef8ea1a1b2900adff35d86217"
+    },
+    "LICENSE.md": {
+      "bytes": 1118,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "bd6b92717449eb1720c94a11e280399f72fe562857155309fb2c9b9fcddf135b"
+    },
+    "README.md": {
+      "bytes": 6289,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/README.md",
+      "hf_path": "README.md",
+      "sha256": "8f0e6c98cebd31fc7aeed2fb96283fcedac23e4aa0668872351e0f8e78ff06ea"
+    },
+    "SOURCES.json": {
+      "bytes": 864,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "69b011ef70a9baec688746ac79db17d6d41ddf9d655e3f94ffe660d372dcc7f1"
+    },
+    "evaluation.json": {
+      "bytes": 3146,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "6d894da0f18f1f2bfc4265c92ca2434c12ff6606af93c5e81a387d0384601c24"
+    },
+    "extract__meta.json": {
+      "bytes": 2070,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "f8bd0f8655817860d92429bacacd771001688ce95536d802b99e385bc14debf2"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 1859525,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "328cae91ac22bb739cc8c93a341862ad3cd2bb5ece033702ffab0efcb907f619"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 3395393,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "5208e17e2fc09f7c80325d071820091511a50f7a694b242b5a54370c460abd9a"
+    },
+    "extract__public__train.csv": {
+      "bytes": 5398238,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "13345512d8aa4e29573e1720afcd2dd4443bd28bdde36d346a90d54bb13391ae"
+    },
+    "extract__quality.json": {
+      "bytes": 22015,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "cfb35f09d2bb29c608d829ebbfeb4d08f633fc9b241008399cfa30f29553317f"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 16679,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "f29a15477ad70b31754729b94155abacca72f931f934bd12656f3c0dcf3b8c67"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 37619,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "fab82e778b3a6e144da3beded9649961a314c40e7e272185c2635993eaef9e43"
+    },
+    "reproduction__construction.json": {
+      "bytes": 25862,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "eaff61f2898844c603df57935cc5f3745645f0835260f9ed34514a386f203c8a"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 20859,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "11d4fd71844b301e5d552c380b31a1286b0dc2243502092d0951d265a633e592"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 9265,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "f911d2f8eeb207e9862b4508200f5fd1c3dea16c1950684ac1ce949012e9f133"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 69469269,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "44b5b15fc7d935e13ad27571c2c485133b6b99c981ade386b629c48ab2f29bf8"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/download/v-fd86cbb0bc96aaca/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.6846038619593475,
+      "Validation calendar_identity brier": 0.011472441763088393,
+      "Validation full_model auc": 0.8564337510951802,
+      "Validation full_model brier": 0.010757983415853435,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.011294752233612928,
+      "Validation persistence auc": 0.7220891468517395,
+      "Validation persistence brier": 0.011180010140842198
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "caa-fce-hpv-escalation",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "U.S. Environmental Protection Agency, Enforcement and Compliance History Online (ECHO) — ICIS-Air",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-caa-fce-hpv-escalation",
+  "hf_repository": "earino/factory-caa-fce-hpv-escalation",
+  "licenses": {
+    "attribution": "No credit required for U.S. Government work; courtesy credit only: U.S. Environmental Protection Agency, Enforcement and Compliance History Online (ECHO), ICIS-Air national dataset.",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "Public domain — U.S. Government work (EPA standard open data licence; 17 U.S.C. § 105)"
+  },
+  "limitations": [
+    "Single current-vintage snapshot (extract 2026-11-07): earlier records reflect later corrections and back-entry, so this design does not demonstrate what was operationally visible to an agency at the time; it is explicitly retrospective.",
+    "ICIS-Air replaced the Air Facility System around October 2014 and AFS is distributed as a separate frozen file; the design does not join the two, so usable evaluation history is roughly a decade and the build must report the first year with national coverage before accepting the frozen splits.",
+    "HPV designation is discretionary and applied differently across state, local and EPA-led programs and across years, so part of the label reflects agency practice rather than source behaviour; state and agency identifiers are therefore mandatory controls, not optional features.",
+    "Coverage is state-reported and uneven: some agencies enter evaluations late or not at all, and HPV practice changed over the period, so base rates vary by agency and year.",
+    "AIR_POLLUTANT_CLASS_CODE, program lists and pollutant lists are snapshot values rather than as-of-decision values; they are used only as coarse counts and flagged as approximate, and the build should report a variant without them.",
+    "Repeated evaluations at one facility create dependence between rows; the 365-day thinning and the facility-disjoint robustness variant reduce but do not eliminate it, and no facility-random cross-validation is used.",
+    "The 2020-2022 evaluation window overlaps the COVID-19 period, when inspection schedules and enforcement practice were disrupted; this is disclosed rather than corrected.",
+    "Records originate with state, local and tribal agencies and are compiled by EPA; EPA's public-domain statement covers data it produces and factual data elements are not copyrightable, but no state-specific terms were reviewed for individual submissions, and ECHO presents the data 'for informational purposes only'.",
+    "No causal claim: the task ranks escalation risk, it does not estimate the effect of evaluations or enforcement on subsequent compliance.",
+    "Single current-vintage snapshot extracted 2026-11-07: earlier records reflect later corrections and back-entry, so historical operational visibility is unverified; the design is retrospective.",
+    "HPV designation is discretionary and applied differently across state, local and EPA-led programs and years, so part of the label reflects agency practice.",
+    "No full-row availability ledger exists, so training_label_timing is unverified and all feature availability claims are assumptions or current-snapshot facts.",
+    "The supplied research did not name the exact date columns in the stack-test and Title V certification tables; the builder probes documented candidates and fails with observed headers if none is found.",
+    "The hazardous-air-pollutant indicator was not verified, so no HAP count feature is shipped.",
+    "Program and pollutant breadth are current snapshot membership counts, not as-of-decision values.",
+    "The same facility can appear in multiple years; this no-shuffle design does not remove within-facility dependence.",
+    "The 2020-2022 evaluation window overlaps the COVID-19 disruption, which is disclosed rather than corrected.",
+    "No causal claim is made; the task ranks escalation risk and does not estimate effects of evaluations or enforcement.",
+    "No label-derived group rates or target encoding are used; prior history features use only records dated before each evaluation.",
+    "Same-facility same-day full evaluations are collapsed deterministically after the preceding-365-day filter.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "After a Clean Air Act source completes a full compliance evaluation with no active High Priority Violator episode, will that source enter High Priority Violator (HPV) status within the next 12 months?",
+      "Population: FCE activity rows from ICIS-AIR_FCES_PCES.csv with COMP_MONITOR_TYPE_CODE in {FOO, FFO}; ACTUAL_END_DATE in a frozen half-open split window; at least one ICIS-AIR_PROGRAMS.csv row for the facility; no active HPV episode at t, meaning HPV_DAYZERO_DATE <= t and HPV_RESOLVED_DATE is null or > t; no HPV day-zero equal to t; no other full evaluation at the same facility with ACTUAL_END_DATE in [t-365 days, t); and t+365 days on or before 2026-11-07. Duplicate FCE activity rows and same-facility same-day full evaluations are collapsed deterministically.",
+      "Target: 1 if the facility has at least one HPV_DAYZERO_DATE in the interval (t, t+365 days], where t is the evaluation's ACTUAL_END_DATE; 0 otherwise. Evaluations at sources already in an active HPV episode at t (HPV_DAYZERO_DATE <= t with no HPV_RESOLVED_DATE <= t), and same-day day-zero dates, are excluded rather than labelled 0, because the label must post-date the decision instant.",
+      "Prediction time: ACTUAL_END_DATE, normalized to a date, at the end of the full compliance evaluation; the decision is made after the evaluation report is entered. All historical features use records dated strictly before t. Static facility attributes and program or pollutant membership are current-snapshot approximations, not historical as-of values.",
+      "Splits: Frozen calendar boundaries on ACTUAL_END_DATE, set from date coverage only and never from label performance: train 2015-01-01 to 2018-12-31; all of 2019 excluded as a 365-day embargo; eval 2020-01-01 to 2022-12-31; all of 2023 excluded as embargo; holdout 2024-01-01 to 2025-06-30 (2025-06-30 + 365 days = 2026-06-30, inside the 2026-11-07 extract). No shuffling. Because the same facility can appear in several years, the fixed robustness variant assigns each facility to the split holding its earliest eligible evaluation and drops that facility's later rows from eval and holdout scoring.",
+      "Outcome horizon: 365 days after the evaluation end date. Labels exist only where t+365 days precedes the data extract (2026-11-07), which caps the last usable evaluation date at 2025-11-07.",
+      "Inputs: state: Two-letter STATE of the facility from the current facilities snapshot; coarse control for delegated-program and reporting practice.; epa_region: EPA_REGION from the current facilities snapshot; coarse federal-region control.; sic_2digit: First two digits of the first SIC code in SIC_CODES; coarse industry and process class.; naics_2digit: First two digits of the first NAICS code in NAICS_CODES; alternative industry class.; facility_type_code: FACILITY_TYPE_CODE owner or operator class such as corporation, municipality, federal or state facility.; air_pollutant_class_code: AIR_POLLUTANT_CLASS_CODE such as major, synthetic minor or minor emission status.; program_count: Count of distinct PROGRAM_CODE rows attached to the facility in the current programs snapshot; breadth of regulatory regimes.; pollutant_count: Count of distinct pollutant codes in the current pollutants snapshot; breadth of tracked pollutants.; comp_monitor_type_code: COMP_MONITOR_TYPE_CODE on the triggering evaluation row, distinguishing on-site and off-site full evaluations.; state_epa_flag: STATE_EPA_FLAG on the triggering evaluation row, indicating state, local or EPA lead.; prior_evaluations_3y: Count of FCE or PCE activity records at the facility with ACTUAL_END_DATE in the 1095 days before t.; days_since_last_evaluation: Days from the most recent prior FCE or PCE ACTUAL_END_DATE before t to t; blank when no prior evaluation exists.; prior_stack_test_failures_3y: Count of stack-test activities with AIR_STACK_TEST_STATUS_CODE FAI and selected test date in the 1095 days before t.; prior_hpv_count: Count of distinct HPV day-zero episodes before t; active episodes are excluded from the population, so included rows have completed prior episodes.; days_since_hpv_resolution: Days from the latest HPV_RESOLVED_DATE before t to t; blank when no prior resolution exists.; prior_formal_actions_3y: Count of formal-action activities with SETTLEMENT_ENTERED_DATE in the 1095 days before t.; prior_penalties_3y: Sum of PENALTY_AMOUNT for formal actions settled in the 1095 days before t; zero only when there are no actions, blank when actions exist but penalties are missing.; prior_tv_deviations_3y: Count of Title V annual certifications with FACILITY_RPT_DEVIATION_FLAG Y and certification date in the 1095 days before t."
+    ],
+    "title": "Caa Fce Hpv Escalation"
+  },
+  "publication_commits": {
+    "github": "fca6bd4b7fe3a3bca7d21bea63b82aaf3f72e3cf",
+    "huggingface": "8432819e8f7e333bb81589d16ab058e1b64dab9b"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "928fcf726c4eb4fe6943e7a23d0752f86437940f261fa8d3ea66974a706f772d",
+  "release_date": "2026-11-14",
+  "release_schema": "factory-1",
+  "release_tag": "v-fd86cbb0bc96aaca",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "U.S. Environmental Protection Agency, Enforcement and Compliance History Online (ECHO) — ICIS-Air",
+    "url": "https://echo.epa.gov/tools/data-downloads/icis-air-download-summary"
+  },
+  "splits": {
+    "eval": {
+      "rows": 36500
+    },
+    "holdout": {
+      "rows": 20011
+    },
+    "train": {
+      "rows": 58183
+    }
+  },
+  "summary": "After a Clean Air Act source completes a full compliance evaluation with no active High Priority Violator episode, will that source enter High Priority Violator (HPV) status within the next 12 months?",
+  "task_type": "binary-classification",
+  "title": "Caa Fce Hpv Escalation",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-caa-fce-hpv-escalation",
+    "github_release": "https://github.com/earino/factory-caa-fce-hpv-escalation/releases/tag/v-fd86cbb0bc96aaca",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-caa-fce-hpv-escalation",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-caa-fce-hpv-escalation/tree/v-fd86cbb0bc96aaca",
+    "version": "https://earino.github.io/factory-caa-fce-hpv-escalation/versions/v-fd86cbb0bc96aaca/",
+    "website": "https://earino.github.io/factory-caa-fce-hpv-escalation/"
+  }
+}
