@@ -1,0 +1,321 @@
+{
+  "artifact_version": "fa26f4e978cfd24a70d86394dac2e3dc9ddf148346ed1e186b04b346bd064001",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 595,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "d5b05cdb5d1a226c5118bd16899424365fafbc1a7ce5174c79d8f84bee1be245"
+    },
+    "LICENSE.md": {
+      "bytes": 1218,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "c82d265f75812134df311c014bade2e8242389a0d95710b489f2348f2441a348"
+    },
+    "README.md": {
+      "bytes": 6637,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/README.md",
+      "hf_path": "README.md",
+      "sha256": "3c877a6f2616ae3d6ef017c103e0339bc6290e9eaef865cea88a21e7075ff754"
+    },
+    "SOURCES.json": {
+      "bytes": 924,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "863343db6ebc0be61a29ea6bfbf162c92be9815030e4715306ff6b746e6e1587"
+    },
+    "evaluation.json": {
+      "bytes": 1846,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "125d79c04b980af5873edc022800c725f54650b0e211b80af8ba8bc3dc4e8712"
+    },
+    "extract__meta.json": {
+      "bytes": 2084,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "99a0fb7365fe24f3d363a48ced60ec7a0ec18f01fb83610e075861831da5a18f"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 190409,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "f1d2222651817345b9fe54a969d0055f62121b982c085939f4f3d20c643d9a28"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 131270,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "6c207acf6758e8f1b5b8e82e9e8d98b24915c29d6dddea994acce3ef105bc5a8"
+    },
+    "extract__public__train.csv": {
+      "bytes": 588190,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "ad03c5c26d3dca0e4a36d8817d18ba1f9a4aaa753081b61428b756829e689f83"
+    },
+    "extract__quality.json": {
+      "bytes": 29777,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "68b32b53a07827208092cbf96ac4891cc1da18990dab697c2fc0336f24b64a88"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 24510,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "25281e9b5fd18cf5d46e7467a18527f185bc95e445f6e7256e6f19f4f3f6dd96"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 38572,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "256d1e5ea8a999884429683b8a0f27c74611c5c2fe07e001113be84753920825"
+    },
+    "reproduction__construction.json": {
+      "bytes": 23473,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "56a8ea48800ca2c13d1c27d634af53c682f1ff123548f7f938ddedf3fe0c0d13"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "8880de985efd8e79e50bfe94346960358c3143b60c1ed423139fa2e3911da7bc"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 19771,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "25cc67e6e0525da06afcb75d3945e83b1f03943b631f40310a5f2b40227e7a4e"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 9038,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "4860cdaf6b44d5fb29476139d09b88a4c2f7071546d78cb6afcb37bef63c19e9"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 33538075,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "212986b5b6fef78aad4f3c8ab295662d96035618d02f43cdd430bcb5ec88ef0d"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-t100-new-route-survival/releases/download/v-d32decf32c315be4/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.5019817812796841,
+      "Validation calendar_identity brier": 0.21298999804210061,
+      "Validation full_model auc": 0.6478237991430504,
+      "Validation full_model brier": 0.2677095943981317,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.2106785523522104
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "t100-new-route-survival",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "U.S. Department of Transportation, Bureau of Transportation Statistics (Office of Airline Information), distributed via TranStats",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-t100-new-route-survival",
+  "hf_repository": "earino/factory-t100-new-route-survival",
+  "licenses": {
+    "attribution": "U.S. Department of Transportation / Bureau of Transportation Statistics / https://www.bts.gov",
+    "citation": "BTS recommended citation: U.S. Department of Transportation, Bureau of Transportation Statistics, https://www.bts.gov (BTS states 'source citation is required'; add 'T-100 Domestic Segment (U.S. Carriers), TranStats' as the dataset-level source)",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "Public Domain U.S. Government (BTS data-portal designation; federal statutory basis 17 U.S.C. 105)"
+  },
+  "limitations": [
+    "No licence statement appears on the TranStats download page itself; the public-domain designation is taken from BTS's own data-portal metadata for T-100-derived products plus 17 U.S.C. 105, with BTS requiring source citation. Anyone re-publishing should carry the BTS credit line rather than assert a CC0 dedication over the upstream data.",
+    "The download path is an ASP.NET form postback with view-state tokens, not a stable static file URL; eleven annual pulls must be scripted, and the interface could change. The 'Prezipped File' option is the documented fallback.",
+    "The label treats a seasonal suspension as an exit whenever the carrier performs no departures in the three-month anniversary window, so genuinely seasonal routes launched in the wrong season are systematically coded as failures.",
+    "Corporate events are confounded with route failure: mergers, certificate transfers and UniqueCarrier re-coding make an acquired carrier's routes vanish from the panel and be labelled discontinued even where service continued under another code.",
+    "Entry episodes are not independent within carrier or within airport: a carrier that shuts down fails all of its new routes at once, and a hub's entry cohort shares the same local demand shock. Row counts overstate the effective number of independent events.",
+    "Domestic U.S. certificated carriers only: foreign-carrier entries, non-scheduled/charter service (classes L/N/P/Q/R/V) and all-cargo-only service are excluded, so results do not describe the whole market.",
+    "T-100 coverage of very small commuter operators is uneven and reporting practices vary, which is partly why the >=8 departures-in-entry-month rule is used; that rule also removes genuine but very thin new services.",
+    "City-market aggregation deliberately hides airport-level shifts within a metro (e.g. a move from one metro airport to another counts as continuous service), which is a definitional choice, not a measurement of airport-level survival.",
+    "All entries after 2018-12 are excluded because their anniversary windows cross the 2020 schedule collapse, so the task describes pre-2019 market structure and is a retrospective, current-vintage construction rather than proof of what an operator could have computed live in 2013.",
+    "No performance metrics were computed and none should be inferred from this selection; the base rate and the entry counts above are estimates pending construction.",
+    "No historical vintages or full-row availability ledger are supplied; the current TranStats snapshot is used and training_label_timing is unverified.",
+    "No publisher publication schedule was supplied; a conservative 90-day administrative availability lag is assumed for timing metadata and is not a measured publication date.",
+    "The source has month-level dates only; the qualification event cluster is the carrier identity, not a day-level event timestamp.",
+    "T-100 publication lag is not documented in the supplied evidence; no zero-day publication date is invented.",
+    "Absence of a T-100 pair-month row is treated as zero performed departures only after global month coverage and missing-DepPerformed checks; missing feature values are blank rather than zero.",
+    "City-market aggregation hides airport-level shifts inside a metro.",
+    "Seasonal suspensions, mergers, certificate transfers and carrier re-coding can be coded as route exits.",
+    "Entries are not independent within a carrier or hub; route counts overstate independent events.",
+    "The frozen population is U.S. certificated carriers and Class F scheduled service; foreign carriers, non-scheduled classes and all-cargo-only service are not described.",
+    "Small commuter coverage is uneven and the at-least-8-departures rule removes very thin services.",
+    "Entries after 2018-12 are excluded because their anniversary windows cross the 2020 schedule collapse.",
+    "The label uses all-class DepPerformed over M+12 through M+14 as frozen; if only scheduled passenger service is intended, the semantics differ.",
+    "The base rate is measured by construction and is not assumed.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "When a U.S. certificated carrier starts scheduled passenger nonstop service on a domestic city market pair it has not served in the previous 12 months, will that service still be operating in the anniversary quarter 12-14 months later?",
+      "Population: Eligible unit is one carrier by directed origin city market by directed destination city market entry episode. In month M the carrier reports Class F scheduled passenger/cargo service, total Passengers greater than zero and total DepPerformed at least 8, and the same carrier performed zero departures on that directed pair in every month M-12 through M-1. Both endpoints are U.S. airports or territories in the U.S. carriers domestic T-100 table. The carrier is a U.S. certificated reporting carrier identified by UniqueCarrier. Months M+12 through M+14 must exist in the downloaded panel. Only entry months inside the frozen train eval and holdout windows are kept; no outcome condition enters eligibility. Rows lacking a fully reported anniversary window are omitted as unknown labels, never relabeled negative.",
+      "Target: label = 1 if the carrier's summed DepPerformed (departures performed) on the directed city-market pair over months M+12, M+13 and M+14 equals 0, i.e. the route is not operating at its one-year anniversary; label = 0 if any departures were performed in that three-month anniversary window.",
+      "Prediction time: Ninety days after the end of entry month M, after the monthly T-100 compilation for M is assumed available. Only T-100 records for months at or before M may enter features; months after M are unseen.",
+      "Splits: Frozen chronological boundaries by entry month, set before any modelling: train = entries in 2011-01..2014-06; eval (validation) = 2015-10..2016-09; holdout = 2018-01..2018-12. Two 15-month embargo gaps drop all entries in 2014-07..2015-09 and 2016-10..2017-12 so that no split's 14-month label window overlaps the next split's decision period. No entries after 2018-12 are used at all, because their anniversary windows fall inside the COVID-19 schedule collapse and would change the label's meaning. Data pulls cover 2010-01..2020-02 only.",
+      "Outcome horizon: 12 to 14 months after the entry month (three-month anniversary window).",
+      "Inputs: distance_miles: Reported nonstop segment distance between the two airports in statute miles; modal value across Class F entry-month rows; time-invariant proxy for block time, fuel burn and yield pressure.; entry_calendar_month: Calendar month of entry month M from 1 to 12; captures seasonality of route launches.; carrier_departures_prior_12m: Total DepPerformed by the carrier over months M-11 through M across all service classes reported in T-100; carrier scale and financial capacity proxy.; carrier_active_pairs_prior_12m: Number of distinct directed city-market pairs on which the carrier performed departures in months M-11 through M; network breadth.; carrier_route_attrition_prior_12m: Share of the carrier directed pairs that operated in month M-12 but had zero departures in month M; point-in-time rate at which this carrier abandons routes.; origin_market_departures_prior_12m: All-carrier, all-class departures performed at the origin city market over months M-11 through M; origin hub or station size.; dest_market_departures_prior_12m: All-carrier, all-class departures performed at the destination city market over months M-11 through M; destination size.; competing_carriers_prior_3m: Number of other UniqueCarrier codes with performed departures on the directed city-market pair in months M-3 through M-1; incumbent competition the entrant faces.; pair_departures_prior_3m: All-carrier, all-class departures performed on the directed city-market pair in months M-3 through M-1; zero indicates a previously unserved market rather than a contested one.; entry_month_departures: The carrier own Class F DepPerformed on the directed pair in month M; intensity of the initial schedule commitment.; entry_month_seats_per_departure: Class F Seats divided by Class F DepPerformed on the pair in month M; aircraft gauge committed to the route.; entry_month_load_factor: Class F Passengers divided by Class F Seats on the pair in month M; first-month demand realisation.; carrier_new_at_origin: 1 if the carrier performed zero departures at the origin city market in months M-12 through M-1, meaning the route also opens a new station; 0 if any departures occurred.; carrier_new_at_dest: 1 if the carrier performed zero departures at the destination city market in months M-12 through M-1; 0 if any departures occurred."
+    ],
+    "title": "T100 New Route Survival"
+  },
+  "publication_commits": {
+    "github": "93a99ce1fba082d70e54a211b1c2927fd4cd6dbc",
+    "huggingface": "3eea580d64fcc40ca6272529dfda3e7cc50b2648"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "91af9c46b59fb92738931bfdc85b8c0c93960fc8a7a132a846f27345593eab23",
+  "release_date": "2026-11-14",
+  "release_schema": "factory-1",
+  "release_tag": "v-d32decf32c315be4",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "U.S. Department of Transportation, Bureau of Transportation Statistics (Office of Airline Information), distributed via TranStats",
+    "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM"
+  },
+  "splits": {
+    "eval": {
+      "rows": 834
+    },
+    "holdout": {
+      "rows": 1209
+    },
+    "train": {
+      "rows": 3734
+    }
+  },
+  "summary": "When a U.S. certificated carrier starts scheduled passenger nonstop service on a domestic city market pair it has not served in the previous 12 months, will that service still be operating in the anniversary quarter 12-14 months later?",
+  "task_type": "binary-classification",
+  "title": "T100 New Route Survival",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-t100-new-route-survival",
+    "github_release": "https://github.com/earino/factory-t100-new-route-survival/releases/tag/v-d32decf32c315be4",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-t100-new-route-survival",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-t100-new-route-survival/tree/v-d32decf32c315be4",
+    "version": "https://earino.github.io/factory-t100-new-route-survival/versions/v-d32decf32c315be4/",
+    "website": "https://earino.github.io/factory-t100-new-route-survival/"
+  }
+}
