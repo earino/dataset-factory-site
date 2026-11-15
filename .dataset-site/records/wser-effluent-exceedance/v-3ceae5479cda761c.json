@@ -1,0 +1,325 @@
+{
+  "artifact_version": "15ee03d514ebc5eaedefc7fba7611d2525fd4b9c828bdfb120ae55b8b8f4c1b4",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 783,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "bb9d09df34f77705c6ccd88751b05a2208ec3d5f33dbf75d5b00f1bd1f2ed122"
+    },
+    "LICENSE.md": {
+      "bytes": 941,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "6206e5f78f3d15ea7e11a2dec58c05f4c6670779e90eda5bbb77617e6bf65e9d"
+    },
+    "README.md": {
+      "bytes": 8100,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/README.md",
+      "hf_path": "README.md",
+      "sha256": "e01441d09e4c6011104e0c76fe6781fa223267e9227648bba856dba01d447c9c"
+    },
+    "SOURCES.json": {
+      "bytes": 1831,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "21050eedd20e2afbfb3825c5c66ee0d7e9c54042c3adb3c05e869ddd9ff5d3eb"
+    },
+    "evaluation.json": {
+      "bytes": 3119,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "96cf1fc801ff7e75ac7a2d5f73abb5e88bf8f38e276d8e754abef484a277de6d"
+    },
+    "extract__meta.json": {
+      "bytes": 2006,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "f1c52fe3b6d2891f4dba03417a15b1e097313452f26858af6e1bd90aee97a95a"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 713711,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "696a55f28a532d8f0e24ca5912f55d5e13e87095e8fee12ff907c3d3c286060e"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 1056905,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "357b0a613a3be2dc73246c189159db69b7fd5761468b73e2dbc4dd701b18cd95"
+    },
+    "extract__public__train.csv": {
+      "bytes": 1555738,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "483e3ef72c333d60b33ee9b3e90ca2417b3cb419e88c7cc01ad30ae95cbe09c7"
+    },
+    "extract__quality.json": {
+      "bytes": 31878,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "579517c28f8f81aac6f8508f4ace96a0d46ff96a009cca6c57134c359c1a29ee"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 22187,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "1f3daaec40b23aba9337c3bc0c83d0a5f82bb424fb2b2d4d8cedd52e2512f7a9"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 45762,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "389315df31ecdec2f8e2fd56d1aa3c3604b10ce0d0c2488d4f38aef80e31ed7f"
+    },
+    "reproduction__construction.json": {
+      "bytes": 27256,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "122dc1c859ff87c810f2b66308b61e20a30db7af388c907e888fc0a29f8b43ce"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 24224,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "6538fc4104aa50598eacacb8de56369dd9f57876dea3d1e08b29375673d8c5bb"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 12839,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "36e6db1cb38b4f2f1ed86ba00c0dd2ec4b8ffeff064e8f6110a3535d80fc6d1a"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 1795584,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "87198b20c5d403dbbb33faa88d421c6fd44ded04571ef635cf2cc3c84d6205e3"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-wser-effluent-exceedance/releases/download/v-3ceae5479cda761c/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.8534058493210624,
+      "Validation calendar_identity brier": 0.10466192008509397,
+      "Validation full_model auc": 0.8993001552065363,
+      "Validation full_model brier": 0.0874060572590605,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.1792220817321876,
+      "Validation persistence auc": 0.833454085474399,
+      "Validation persistence brier": 0.1153786503596054
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "wser-effluent-exceedance",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "Environment and Climate Change Canada (ECCC)",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-wser-effluent-exceedance",
+  "hf_repository": "earino/factory-wser-effluent-exceedance",
+  "licenses": {
+    "attribution": "Contains information licensed under the Open Government Licence – Canada.",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "Open Government Licence - Canada (version 2.0)"
+  },
+  "limitations": [
+    "Identification-report attributes (treatment types, chlorine use, hydraulic retention time, receiving-water description, coordinates) are published as a single current-vintage snapshot with no year stamp, so they can reflect upgrades that happened after the decision instant. They are used as quasi-static covariates and the build should also report a version that drops them entirely.",
+    "The label is an any-period-above-limit indicator, not ECCC's official 75-percent-of-the-time compliance determination, so it deliberately marks more system-years as positive than the regulator would.",
+    "Sampling exposure is unequal: a monthly-reporting plant has twelve chances to exceed, an annual-reporting lagoon has one. Reporting frequency and period counts are supplied as features, but the exposure effect is not removed from the label.",
+    "Repeated systems across years induce serial correlation. Chronological splits prevent future-to-past leakage but not dependence, so a one-row-per-system variant is a necessary sensitivity check.",
+    "Coverage is partial: Nunavut, the Northwest Territories, and areas north of the 54th parallel in Quebec and Newfoundland and Labrador are outside the regulations; Yukon and Quebec municipal systems arrive under equivalency agreements with missing acute-lethality and CSO fields and possibly different limit conventions.",
+    "Reporting completeness is imperfect; the 2018 report notes 26% of systems missed one or more required monitoring reports, so a missing exceedance can mean non-reporting rather than good performance. Eligibility requires at least one filed report.",
+    "Data-entry anomalies exist in the source, including at least one 2025 row where the compliance column contradicts average minus limit, which is why the label is computed from the average and limit columns directly.",
+    "Target year 2025 is excluded because its reports are still maturing in the 2026 vintage; results should not be extended to 2025 without re-checking completeness.",
+    "The Open Government Licence - Canada excludes personal information and third-party rights and is governed by Ontario and Canadian law. Facility-level coordinates and postal codes are present in the identification file and should be dropped from released features. Our CC0 dedication covers only our own labels, splits and code, and never the upstream data.",
+    "Identification attributes are a single current-vintage snapshot with no reporting-year stamp, so treatment, retention time, chlorine use and receiving-water descriptions can reflect post-decision upgrades.",
+    "The label is an any-period-above-limit indicator, not ECCC official 75-percent-of-the-time compliance determination, so it marks more system-years positive than the regulator would.",
+    "Sampling exposure is unequal: a monthly-reporting plant has more chances to exceed than an annual-reporting lagoon. Reporting frequency and period counts are supplied, but exposure is not removed from the label.",
+    "Repeated systems across years induce serial correlation. Chronological splits prevent future-to-past leakage but not dependence.",
+    "Coverage is partial: Nunavut, the Northwest Territories, and areas north of the 54th parallel in Quebec and Newfoundland and Labrador are outside the regulations. Yukon and Quebec municipal systems may have missing acute-lethality or CSO fields.",
+    "Reporting completeness is imperfect; a missing exceedance can mean non-reporting rather than good performance. Eligibility requires at least one filed report.",
+    "Data-entry anomalies exist in the source, including compliance values that can contradict average minus limit. The label therefore uses average and limit directly.",
+    "Target year 2025 is excluded because its reports are still maturing in the 2026 vintage.",
+    "Facility-level coordinates and postal codes are not shipped.",
+    "Actual publication dates of the downloaded current-vintage CSV are not verified. The 1 March decision instant is the statutory reporting deadline, not an observed publication record.",
+    "Acute lethality testing covers only systems above the testing threshold, so the failure count is missing rather than zero for many systems.",
+    "Prior-year exceedance and worst margin are missing, not zero, for 2015 targets and any year without an evaluable positive-limit row; stray pre-2015 positive-limit rows are deliberately ignored for limit-based features.",
+    "Treatment-family classification uses keyword matching on the identification treatment list and may misclassify mixed or unusual treatment trains.",
+    "Operational status from the identification snapshot is current-vintage and lacks a reporting-year stamp, so it is not used to exclude historical target years; it is retained only as a diagnostic limitation.",
+    "Population eligibility requires a target-year monitoring row with a positive limit and a reported average, so the cohort is defined using outcome-window reports; it is a retrospective research cohort, not a deployable 1 March forecast roster.",
+    "Independent-event clustering uses system_id because the statutory decision date is constant within a target year; this is a conservative identity cluster, not a day cluster.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "At the start of a compliance year, will a federally regulated Canadian wastewater system report at least one effluent monitoring period whose average CBOD or suspended-solids concentration exceeds the limit that applies to it?",
+      "Population: Wastewater systems filing at least one monitoring report in target year Y in which a CBOD or suspended-solids limit greater than 0 is recorded, with at least one prior year of monitoring history. The system-year must also have at least one such positive-limit row with a reported average; system-years with a positive limit but a missing average and no observed exceedance are excluded rather than labeled 0. No current-vintage operational-status snapshot is used to exclude historical system-years because the identification status field has no reporting-year stamp and is not year-versioned. Because no limits existed before 1 January 2015, target years run 2015 to 2024. Systems outside the regulations (Nunavut, Northwest Territories, north of the 54th parallel in Quebec and Newfoundland and Labrador) never appear. Quebec municipal systems appear under the equivalency agreement with provincial limit conventions carried in the limit columns. Eligibility and labels use year-Y reports, so this is a retrospective research cohort, not a deployable 1 March forecast roster.",
+      "Target: For system i and target calendar year Y, label = 1 if any monitoring row for year Y with a reported CBOD limit greater than 0 has average CBOD strictly greater than that limit, or any row with a reported suspended-solids limit greater than 0 has average suspended solids strictly greater than that limit; otherwise 0. Computed from the reported average and the reported limit, not from the pre-computed compliance column. Rows for 2013 and 2014 are excluded because no limits applied.",
+      "Prediction time: 1 March of target year Y. Every monitoring report for a completed averaging period is due within 45 days of the period end (annual and Q4 reports therefore due by 14 February), and combined-sewer-overflow reports are due by 15 February, so all year Y-1 effluent results and CSO volumes are on file at the statutory deadline. The timing metadata treats the 45-day statutory lag as a publication proxy; actual publication dates of the downloaded current-vintage CSV are not verified. Identification-report attributes are treated as a current-vintage snapshot.",
+      "Splits: Fixed chronological boundaries by target year: train 2015-2019, eval 2020-2022, holdout 2023-2024. No embargo year is needed because each label window is a single non-overlapping calendar year and every feature is dated on or before 31 December Y-1, so no row can see a later row's outcome. Target year 2025 is excluded because its reports are still maturing in the current data vintage. Reporting-completeness strata and province are kept balanced across the three periods by construction of the year windows, not by resampling.",
+      "Outcome horizon: The full calendar year Y (1 January to 31 December), observable from reports due by 14 February of Y+1.",
+      "Inputs: prior_year_exceedance: 1 if any Y-1 monitoring row with a positive applicable limit and a reported average has average strictly above limit; 0 if Y-1 has an evaluable positive-limit row and none exceed; missing if Y-1 has no evaluable positive-limit row. Limit-based history is restricted to 2015 and later, so 2015 targets are missing even if stray pre-2015 rows carry positive limits.; prior_year_worst_margin: Maximum over Y-1 CBOD and suspended-solids evaluable rows of average minus limit, floored at 0; missing when no evaluable Y-1 limit row. Limit-based history is restricted to 2015 and later.; ever_exceeded_before: 1 if any year before Y has an evaluable exceedance; 0 if at least one prior evaluable year and none; missing if no prior evaluable year. Limit-based history is restricted to 2015 and later.; history_years_reported: Count of distinct calendar years before Y with at least one monitoring row.; periods_reported_prior_year: Count of distinct year-period-month monitoring records in Y-1, a measure of sampling exposure; 0 if no Y-1 monitoring row.; reporting_frequency: Canonical annual, quarterly or monthly reporting frequency from the latest Y-1 monitoring row; inferred from period tokens if the field is blank.; system_type: Intermittent or continuous wastewater system type from the latest Y-1 monitoring row.; avg_daily_effluent_volume_m3: Mean reported average daily effluent volume in Y-1, in cubic metres per day; missing if no Y-1 value.; owner_type_operator_type: Owner type and operator type from the latest Y-1 row, joined by a separator; missing if neither is reported.; province: Province from the latest Y-1 monitoring row, falling back to the identification snapshot.; treatment_family: Mechanical or activated-sludge class, lagoon class, no treatment, or other, parsed from the identification treatment-type list.; hydraulic_retention_ge_5_days: 1 if reported hydraulic retention time is five days or more, else 0; missing if not reported.; chlorine_use: 1 if chlorine or a chlorine compound is reported in use, else 0; missing if not reported.; receiving_water_type: Reported description or name of the water frequented by fish at the discharge point, such as a watercourse, lake or fish spawning area, taken from the water-frequented-by-fish identification column; not the generic discharge-place description.; prior_year_acute_lethality_failures: Count of failed rainbow-trout acute lethality tests in Y-1; missing when no acute test row exists, which is expected for systems below the testing threshold."
+    ],
+    "title": "Wser Effluent Exceedance"
+  },
+  "publication_commits": {
+    "github": "839e44cf74c4a6cca0f8cd8eb8aed4e0f2748a35",
+    "huggingface": "44bbb5e4c236bd5cc291a0000c9071f55de2dd99"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "6c3bc4a3ff1fbce9515253c896489e507c846e4f55bba0a0fe58bd1f4b1d6c56",
+  "release_date": "2026-11-15",
+  "release_schema": "factory-1",
+  "release_tag": "v-3ceae5479cda761c",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "Environment and Climate Change Canada (ECCC)",
+    "url": "https://data-donnees.ec.gc.ca/data/substances/planinfrastruture/wastewater-systems-effluent-regulations-reported-data/"
+  },
+  "splits": {
+    "eval": {
+      "rows": 5894
+    },
+    "holdout": {
+      "rows": 3988
+    },
+    "train": {
+      "rows": 8244
+    }
+  },
+  "summary": "At the start of a compliance year, will a federally regulated Canadian wastewater system report at least one effluent monitoring period whose average CBOD or suspended-solids concentration exceeds the limit that applies to it?",
+  "task_type": "binary-classification",
+  "title": "Wser Effluent Exceedance",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-wser-effluent-exceedance",
+    "github_release": "https://github.com/earino/factory-wser-effluent-exceedance/releases/tag/v-3ceae5479cda761c",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-wser-effluent-exceedance",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-wser-effluent-exceedance/tree/v-3ceae5479cda761c",
+    "version": "https://earino.github.io/factory-wser-effluent-exceedance/versions/v-3ceae5479cda761c/",
+    "website": "https://earino.github.io/factory-wser-effluent-exceedance/"
+  }
+}
