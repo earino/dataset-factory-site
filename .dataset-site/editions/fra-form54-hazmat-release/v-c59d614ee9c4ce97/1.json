@@ -1,0 +1,316 @@
+{
+  "artifact_version": "aedd811fdb6a80fdeb6828c1ba8bc2eeb80c8446d597ba57a536adb8e384da7e",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 706,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "753946a7542c57df822a76334cc3df9e87b443f780467e6a35c05255cc7d5bf8"
+    },
+    "LICENSE.md": {
+      "bytes": 1103,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "8443ff1f30427c89366446fddbbed84511f5fe7abc708e1184ae0b57ae0286af"
+    },
+    "README.md": {
+      "bytes": 7144,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/README.md",
+      "hf_path": "README.md",
+      "sha256": "5df3274d3468c882bff3833c9974a75d8f486a4e0d4b8eed48b9dd56bf32e327"
+    },
+    "SOURCES.json": {
+      "bytes": 1698,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "25a46f6e3b1088836c93cab8bb1742fdbe4869fa268e1da333e0960f655e9d32"
+    },
+    "evaluation.json": {
+      "bytes": 6699,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "63ea65859671155576c5c79324acabba3b8f325af0b543690bbe54612fea68ae"
+    },
+    "extract__meta.json": {
+      "bytes": 1824,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "bfbff6c657c98172cbffd2db58d6bc792b4cd1fa733b8696a5b20e5c031a229c"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 643644,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "731d81bbea46929a907c31e86bee910344b2aaa49b0004a52727706c8c383673"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 946868,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "4ed8d5fa7c0c3f9dfc3359723e4201ca85b9ee4a664ea93a2a55bd3312fc8c24"
+    },
+    "extract__public__train.csv": {
+      "bytes": 1542789,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "0e4929ad8326d992e3942bb50244e857c4ad11bbd2c8e3647bbce7714b6f65eb"
+    },
+    "extract__quality.json": {
+      "bytes": 23953,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "cfeec6b9b8d47668908085133529b0a7dd05bb181cbdc0f3f225990e04988f0d"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 17665,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "8d45be55dd6fac13fb4fb3d69393e507e3a03c4e89763e885679d0ce08d49847"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 29460,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "669dcbe8bf0474383f3c1bdee308594678995e64f26f88c28bf0b222d21025f2"
+    },
+    "reproduction__construction.json": {
+      "bytes": 27120,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "0b6a6a29a1874c463b264eca3cb17d440d4bc18e0756dbb2bdc8e6c83ee654c9"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 18783,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "132f69cdea067271cffb8999c99096fdb556e2db6088987650c7aa910b44c284"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 10747,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "f46babd6245ad28b7fcfab7c3c900a991332a3fc9734af3f9e1274c33fe916e2"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 1240875,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "54be028a3a72605e8e2240ad382d7fbb848ece1e53495418682d0fd0587b3628"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/download/v-c59d614ee9c4ce97/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.5261611427162968,
+      "Validation calendar_identity brier": 0.052908556665205164,
+      "Validation full_model auc": 0.6852224885803905,
+      "Validation full_model brier": 0.044073485641066425,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.046679489571589676
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "fra-form54-hazmat-release",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "U.S. Department of Transportation, Federal Railroad Administration (FRA), Office of Railroad Safety; published on data.transportation.gov",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-fra-form54-hazmat-release",
+  "hf_repository": "earino/factory-fra-form54-hazmat-release",
+  "licenses": {
+    "attribution": "No attribution is required for this U.S. Government work; recommended credit: U.S. Department of Transportation, Federal Railroad Administration, Rail Equipment Accident/Incident Data (Form FRA 6180.54), data.transportation.gov",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "Public Domain U.S. Government (Socrata license identifier USGOV_WORKS)"
+  },
+  "limitations": [
+    "U.S. freight rail plant is largely privately owned; this is regulated transport infrastructure rather than publicly owned infrastructure, so the fit to a 'public infrastructure' focus is by regulation and community/environmental exposure, not ownership.",
+    "The label comes from the same retrospective form as the features, so the claim that inputs were available at the decision instant is an inference about scene knowledge, not a documented field-level timestamp; the FRA data has no separate initial-versus-final report structure to prove it.",
+    "Base rate falls sharply over time (about 9-10% for 1975-1999 versus about 3% for 2013+), so the fixed 2013+ holdout has only about 185 positives and metrics there will be noisy.",
+    "Reportable damage thresholds change across years, which changes which accidents enter the population at all and induces level shifts that a chronological split will partly absorb as drift.",
+    "Consist and hazmat fields are self-reported by railroads and subject to revision for up to five years, so recent years (including the partial 2026) are unsettled.",
+    "The extract already excludes grade-crossing collisions, so results do not generalize to the grade-crossing population, and the 'unique train accidents' subset must not be re-joined to per-report rows without deduplication.",
+    "The public-domain designation is a U.S. Government works basis (17 U.S.C. 105) for the federal compilation; it is not a worldwide dedication, and any third-party content quoted inside railroad narratives is not covered by that designation and should not be redistributed.",
+    "Excluding post-outcome quantities (cars derailed, damage, casualties, cause) removes the strongest correlates of release, so the task is deliberately hard and low-ceiling.",
+    "The publisher view is titled Unique Train Accidents (Not at Grade Crossings), but the live snapshot still contains a crossing block: 10,427 records carry a non-null gxid and 10,303 records have accidenttype Hwy-rail crossing or RR grade crossing. Among the 27,244 hazmat-car accidents, 1,797 rows and 45 positives carry a non-null gxid, and 1,756 rows and 38 positives are typed Hwy-rail crossing. This build excludes rows with a non-empty gxid or a crossing accident type before labeling; the gxid and accident-type counts overlap, so the exact union is not enumerated. The resulting population is disjoint from grade-crossing records by construction, not by publisher guarantee.",
+    "The label is recorded on the same retrospective form as the features, so availability of the inputs at first notification is a scene-knowledge inference; the extract has no field-level timestamp separating initial scene knowledge from the final report.",
+    "Reporting railroad class is the documented publisher field Reporting Railroad Class with Class I, Class II, Class III, Not Assigned and Unassigned values, not a fallback to the reporting railroad code. Temperature is complete in the current population and is not frequently missing; these correct prior descriptions.",
+    "The release base rate falls over time, from roughly 9 to 10 percent before 2000 to roughly 3 percent after 2012, so the fixed 2013 onward holdout carries only a few hundred positives and metrics there will be noisy.",
+    "Reportable damage thresholds change across years, which changes population entry at all and induces level shifts that the chronological split only partly absorbs.",
+    "Consist and hazmat fields are self-reported by railroads and remain revisable for up to five years, so recent years including the partial 2026 are unsettled across vintages.",
+    "The explicit crossing exclusion removes the publisher contamination but also changes the population from the title-implied extract; accidents with a non-empty gxid are treated as grade-crossing records even when accidenttype does not say crossing.",
+    "The public-domain designation rests on U.S. Government works status for the federal compilation and does not extend to third-party narrative text, which is excluded from the modelling frame entirely.",
+    "Excluding derailed car counts, damage, casualties and cause removes the strongest correlates of release, so the task has a deliberately low ceiling.",
+    "No per-accident tracking number was verified in the export, so identifiers are composite keys that are stable for a fixed snapshot but not across vintages; the composite now uses the published reporting railroad code and accident month names rather than the earlier misspelled candidates.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "At the moment a U.S. train accident involving hazardous-material cars is first reported, will at least one of those cars release hazardous material?",
+      "Population: Every unique train accident in the FRA Form 54 unique-train-accident extract, covering accident years 1975 through 2026, whose consist included at least one car carrying regulated hazardous materials (hazmat car count of at least 1). The publisher view title claims no grade crossings, but the current snapshot still contains a crossing block, so the builder explicitly excludes records with a non-empty gxid or accidenttype Hwy-rail crossing or RR grade crossing before labeling. Accidents with an unrecorded release count are dropped rather than labeled negative.",
+      "Target: hazmatreleasedcars >= 1, i.e. at least one railcar released hazardous material, among accidents whose train consist included at least one car carrying regulated hazardous materials (hazmatcars >= 1)",
+      "Prediction time: At first notification of the accident, when the crew and dispatcher report it and before Form FRA 6180.54 is prepared. Only circumstances a responder can observe or obtain on scene are shipped: consist counts and tonnage, speed, track type and class, weather, visibility, temperature, the apparent accident type, carrier class and state.",
+      "Splits: Fixed chronological boundaries on accident year, one row per accident, no random shuffling: train = accidents through 1999-12-31 (~13,100 hazmat-car accidents, ~1,400 releases); eval = 2000-01-01 to 2012-12-31 (~8,000 accidents, ~330 releases); holdout = 2013-01-01 onward (~5,900 accidents, ~185 releases; 2026 is partial). No embargo is applied because the label is realized inside the same accident record rather than in a forward window, so there is no label-overlap span to purge; the design also has no lag or rolling-history features, and each accident appears exactly once, so no later row can encode an earlier row's label.",
+      "Outcome horizon: Realized within the accident sequence itself and documented when the railroad files Form 6180.54 (reports are filed after the accident, and railroads may revise for up to five years); this is a same-event outcome, not a multi-year forward window.",
+      "Inputs: trainspeed: Recorded or estimated train speed at the time of the accident, in miles per hour.; equipmenttype: Equipment type involved (freight train, passenger, yard movement and similar).; hazmatcars: Number of cars in the consist carrying regulated hazardous materials; also the frozen population filter.; loadedfreightcars: Number of loaded freight cars in the consist.; emptyfreightcars: Number of empty freight cars in the consist.; grosstonnage: Gross tonnage of the train.; tracktype: Track type at the accident point (main, siding, yard, industry).; trackclass: FRA track class code from the railroad track charts, kept as a code because the code set includes non-numeric entries.; weathercondition: Weather condition at the time (clear, rain, snow, fog and similar).; visibility: Visibility code such as daylight versus darkness.; temperature: Ambient temperature at the accident scene in degrees Fahrenheit; missing values remain missing and are never filled with zero.; accidenttype: Nature of the event as it presents on scene (derailment, collision, other).; reporting_railroad_class: Reporting railroad class as published by FRA (Class I, Class II, Class III, Not Assigned, Unassigned), a carrier class identity attribute; not a fallback to the reporting railroad code.; stateabbr: State in which the accident occurred."
+    ],
+    "title": "Fra FORM54 Hazmat Release"
+  },
+  "publication_commits": {
+    "github": "001f82070dd94eb802887a7619df9c6c51660262",
+    "huggingface": "e612b9530e919863929f1f3bc00c80dcee949b9d"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "2119c1391173607ba98c909d7aada869f1c46417c82163035a49551ae544f0e3",
+  "release_date": "2026-11-15",
+  "release_schema": "factory-1",
+  "release_tag": "v-c59d614ee9c4ce97",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "U.S. Department of Transportation, Federal Railroad Administration (FRA), Office of Railroad Safety; published on data.transportation.gov",
+    "url": "https://datahub.transportation.gov/api/views/byy5-w977/files/ac84a1c8-56d4-4a21-85c2-3a33080ab720?download=true&filename=Form54_Data_Dictionary.xlsx"
+  },
+  "splits": {
+    "eval": {
+      "rows": 7697
+    },
+    "holdout": {
+      "rows": 5189
+    },
+    "train": {
+      "rows": 12541
+    }
+  },
+  "summary": "At the moment a U.S. train accident involving hazardous-material cars is first reported, will at least one of those cars release hazardous material?",
+  "task_type": "binary-classification",
+  "title": "Fra FORM54 Hazmat Release",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-fra-form54-hazmat-release",
+    "github_release": "https://github.com/earino/factory-fra-form54-hazmat-release/releases/tag/v-c59d614ee9c4ce97",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-fra-form54-hazmat-release",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-fra-form54-hazmat-release/tree/v-c59d614ee9c4ce97",
+    "version": "https://earino.github.io/factory-fra-form54-hazmat-release/versions/v-c59d614ee9c4ce97/",
+    "website": "https://earino.github.io/factory-fra-form54-hazmat-release/"
+  }
+}
