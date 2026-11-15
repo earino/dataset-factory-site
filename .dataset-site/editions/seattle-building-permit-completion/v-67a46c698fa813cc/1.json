@@ -1,0 +1,318 @@
+{
+  "artifact_version": "a220e68c960ee6b6aa473f015112be0993353ab3d12f9820c31551164f0ee677",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 717,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "ff7141e98807cf0373bd8c0a0bce28cbc0bb0409f80211778639668f1ed148b0"
+    },
+    "LICENSE.md": {
+      "bytes": 1202,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "f33b585718c4e0cf2c51e5e34184b41df83b074f0b932495b11f2b107a660477"
+    },
+    "README.md": {
+      "bytes": 6886,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/README.md",
+      "hf_path": "README.md",
+      "sha256": "07dae93ceefcb4e1155cf52e67d3f4fa1becb0d45d67bf4e4ba8b939d75585ef"
+    },
+    "SOURCES.json": {
+      "bytes": 1477,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "04758e5354cc9d2eaf154a77f3d2ba0225b00bf3fd2d65c0f382a57220998c0d"
+    },
+    "evaluation.json": {
+      "bytes": 1846,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "c81d73707f4851236dacfd8752c741be5a79d089d40cbfe02a715a5abf90e379"
+    },
+    "extract__meta.json": {
+      "bytes": 2081,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "767e29ef2df31a06b97bf83f62027fe7a40e376bf3b98ce238b79e7a5c6acf68"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 1056984,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "aea92d0461c05b38c321e7012138c494921c01525676fb781e0fbb2885e44bd4"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 1180318,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "db5726b6c72f69815bade3f012146a198b8772589f255bccb3af094c5d076017"
+    },
+    "extract__public__train.csv": {
+      "bytes": 1848274,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "525fdf9a69b3449654fecebcc0087e1155c1fe00a4de72175cbf7366566da283"
+    },
+    "extract__quality.json": {
+      "bytes": 30671,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "80980921fbb4851537bf2c2c6dabd2bc237bb17033eb224e643117f1bd7fafe6"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 18184,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "35bee5d4c3288600aa2e88c98fb2575a460299a74ae4e56c2f8a0630c8639f78"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 17093,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "38de47212ea79f8afe764f4b359bcc6a41f3343620dc6e5c7d484e78d76a3d37"
+    },
+    "reproduction__construction.json": {
+      "bytes": 30615,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "75cf2be1eff93324e133dca424efecf1ff0f67a0037500362d59cab4601d4420"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 26699,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "fd603570c6993ec08a43a4f940631c7976c63a268e798aab339f831c5dd3557b"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 11833,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "558d27301de4388608218b8445900620c0b13dedce36603a1f998252ceea4f29"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 1471652,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "78cb100e796ccd05292a3fabe93b1c1ba7d13753bb694553f5a71fd3f5cfa0a7"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-seattle-building-permit-completion/releases/download/v-67a46c698fa813cc/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.5130716895355019,
+      "Validation calendar_identity brier": 0.2238072774370914,
+      "Validation full_model auc": 0.635545439690134,
+      "Validation full_model brier": 0.17718219376270802,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.18889847635656057
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "seattle-building-permit-completion",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "City of Seattle - Seattle Department of Construction and Inspections (SDCI), published on data.seattle.gov",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-seattle-building-permit-completion",
+  "hf_repository": "earino/factory-seattle-building-permit-completion",
+  "licenses": {
+    "attribution": "City of Seattle (dataset attribution field on the portal; no specific credit is required unless the publishing department indicates otherwise)",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "Public Domain (Socrata license designation for this dataset; licenseId PUBLIC_DOMAIN), with City of Seattle open-data policy granting publication without registration, license or use restrictions"
+  },
+  "limitations": [
+    "The outcome is an administrative record: a physically finished project whose final inspection was never logged, or whose permit lapsed, counts as non-completion, so the label measures closure of the permit as much as completion of the work.",
+    "Current-vintage retrospectivity: EstProjectCost and HousingUnits are documented as subject to change if the project is modified, and the plan-review day columns are frequently null in 2016-era rows. Nothing here proves those fields were visible to an analyst in 2016; only that they are recorded on the current snapshot and are logically prior to issuance.",
+    "The dataset is a live, daily-refreshed endpoint with no immutable archive; a rebuild cannot reproduce the byte-identical extract. Labels for eligible cohorts are nonetheless stable because every 48-month window closed before 2026-09-30, so later refreshes can only add completions that fall outside the window.",
+    "The snapshot is a rolling window. Pre-2004 rows are sparse and 2004-2015 coverage is uneven, which is why the cohort window starts in 2016; older issuance dates in the file (including 1900-01-01 sentinels) must be filtered, not trusted.",
+    "The City's Terms of Use bar commercial use of data that is or can be configured as a list of individuals. Contractor names, applicant-linked fields and street addresses are therefore dropped and only ZIP is kept; this is a preservation obligation on the release, not a formality.",
+    "Single city and a single permitting authority, so external validity is limited to Seattle's permit regime; holdout cohorts for 2021-2022 also sit in a different construction-cost and post-pandemic regime than the training years, which is part of the task rather than an artefact to remove.",
+    "EstProjectCost >= 50000 is used both for eligibility and as a feature, so the population definition partly depends on a mutable declared field; a small number of projects revised upward after issuance can enter the cohort retroactively.",
+    "Deliberate exclusion of cross-row history means contractor track record, site-level phasing and prior-permit outcomes - the strongest real-world predictors - are absent; permits sharing a Development Site or ParentPermitNum remain correlated, so rows are not strictly independent across sibling permits of one project.",
+    "ExpiresDate is mechanically IssuedDate plus 18 months in the sampled rows, so permit duration carries almost no signal and is not used as a feature.",
+    "A same-day CompletedDate (issued and completed on the same date) occurs in the eligible slice, which suggests some permits are closed administratively on issue; such rows are kept because the documented field rule is unambiguous, but they depress the informativeness of the positive class.",
+    "The outcome is an administrative final-inspection completion record, not occupancy or certificate of occupancy. A physically finished project whose final inspection was never logged counts as non-completion.",
+    "A null CompletedDate is documented as generally still under inspection; the frozen task maps null to y=0. This is an evidenced field interpretation, not an assumption that an unknown outcome is negative after the 48-month window.",
+    "The Socrata resource is a live daily-refreshed current snapshot with no immutable archive. Exact population counts are tied to the 2026-11-14 publisher evidence and may fail on a later refresh.",
+    "There is no full-row historical availability ledger. Feature availability at issuance is assumed from field semantics and current-snapshot presence, not proven.",
+    "Plan-review and housing-unit fields have substantial missingness. Missing numeric and token values are left blank, not filled with zero.",
+    "EstProjectCost is mutable and is used both for population eligibility and as a feature, so a few projects may enter the cohort retrospectively after an upward revision.",
+    "Rows may be correlated across sibling permits through ParentPermitNum or RelatedMUP; no site-level independence is claimed.",
+    "The 2021-2022 holdout sits in a different construction-cost and post-pandemic regime than the training years. This is part of the task, not an artefact to remove.",
+    "ExpiresDate is mechanically IssuedDate plus about 18 months and is not used as a feature.",
+    "Same-day CompletedDate values occur; they are kept because the field rule is unambiguous, but they depress the informativeness of the positive class.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "Will a newly issued Seattle building permit for a substantive construction project reach final inspection sign-off within four years of issuance?",
+      "Population: Every row in the live Socrata snapshot with PermitTypeMapped equal to Building, IssuedDate in the half-open window 2016-01-01 through 2022-10-01, and EstProjectCost at least 50000 nominal USD. Rows with impossible chronology (CompletedDate before IssuedDate, or IssuedDate before AppliedDate when both are present) are excluded as a source data-quality rule per the construction recipe. The unit is the permit as issued; no site-level or contractor-level aggregates are used. The population is fixed by permit type, issuance date and declared cost, not by the label value.",
+      "Target: y = 1 if CompletedDate is non-null and CompletedDate <= IssuedDate + 48 calendar months (dateutil relativedelta, month arithmetic); y = 0 otherwise, including permits still under inspection, expired permits and withdrawn permits. Evaluated against the 2026-11-14 snapshot, by which date the 48-month window of every eligible cohort has already closed, so the label can no longer flip from 0 to 1.",
+      "Prediction time: The permit IssuedDate, when the permit is issued. Only fields written at submittal, during plan review, or at issuance are used; CompletedDate, StatusCurrent, ExpiresDate and post-issuance revisions are excluded from features. The label is observed retrospectively after the 48-month window.",
+      "Splits: Fixed calendar boundaries on IssuedDate, no shuffling: train = 2016-01-01..2018-12-31 (11,289 eligible permits), eval = 2019-01-01..2020-12-31 (7,135), holdout = 2021-01-01..2022-09-30 (6,326). The holdout end date is chosen so the last 48-month label window closes on 2026-09-30, before the 2026-11-14 snapshot. No embargo is applied or needed: every feature is strictly row-local, there are no lags, rolling aggregates or other permits' outcomes, so moving a boundary by a month cannot leak anything.",
+      "Outcome horizon: 48 months from IssuedDate",
+      "Inputs: permitclass: Project class recorded on the application: Single Family/Duplex, Commercial, Multifamily, Institutional, Industrial, Vacant Land, or N/A. Categorical and row-local.; permitclassmapped: Residential, Non-Residential or N/A roll-up of permit class.; permittypedesc: New, Addition/Alteration, Tenant Improvement, Temporary, Change of Use Only - No Construction, Curb Cut, or NONE.; estprojectcost: Applicant-declared fair-market construction cost in nominal USD; all included rows have at least 50000 by population definition. Mutable if the project is later modified, so read as current-vintage.; housingunitsadded: Housing units the project adds; null for many rows and left blank, not zero.; housingunitsremoved: Housing units the project removes; null left blank.; housingunits: Net housing-unit change for the project; null left blank.; applied_to_issued_days: Calendar days from AppliedDate to IssuedDate; null if AppliedDate is missing. Both timestamps are at or before issuance.; totaldaysplanreview: Total plan-review days recorded by SDCI; frequently null in 2016-era rows and left blank.; numberreviewcycles: Number of plan-review correction cycles recorded before issuance; null left blank.; daysoutcorrections: Days the applicant spent outside the city responding to plan-review corrections; missing values left blank.; issue_month_sin: Sine of the issuance month, a cyclical calendar encoding known at issuance.; issue_month_cos: Cosine of the issuance month, a cyclical calendar encoding known at issuance.; originalzip: Five-digit project ZIP mapped to the 20 most frequent training-row ZIPs plus other and missing; the top-20 list is fitted on training rows only.; description_length: Character length of the free-text scope description; null when description is missing.; description_stfi: Binary token for stfi in the scope description; null when description is missing, not zero.; description_per_plan: Binary token for per plan in the scope description; null when description is missing, not zero.; description_apartment: Binary token for apartment in the scope description; null when description is missing, not zero.; description_unit: Binary token for unit in the scope description; null when description is missing, not zero.; description_tenant: Binary token for tenant in the scope description; null when description is missing, not zero.; description_demolition: Binary token for demolition in the scope description; null when description is missing, not zero.; dependentbuilding: Dependent-building indicator recorded at filing; null left blank.; standardplan: Pre-approved DADU standard-plan indicator; null left blank.; parent_permit_flag: One when ParentPermitNum is present, else zero; a filing-structure indicator.; related_mup_flag: One when RelatedMUP is present, else zero; a filing-structure indicator."
+    ],
+    "title": "Seattle Building Permit Completion"
+  },
+  "publication_commits": {
+    "github": "ba32f6a204ff2d588279a02c21490312a4cc50d9",
+    "huggingface": "26a6cab683e1845d7fa2f6b05caee76bf79536fe"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "c8328f680f2af386fca75ee8fd21faef09386e1efcc0cb47243d1437b29726e7",
+  "release_date": "2026-11-15",
+  "release_schema": "factory-1",
+  "release_tag": "v-67a46c698fa813cc",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "City of Seattle - Seattle Department of Construction and Inspections (SDCI), published on data.seattle.gov",
+    "url": "https://data.seattle.gov/Built-Environment/Building-Permits/76t5-zqzr"
+  },
+  "splits": {
+    "eval": {
+      "rows": 7135
+    },
+    "holdout": {
+      "rows": 6326
+    },
+    "train": {
+      "rows": 11286
+    }
+  },
+  "summary": "Will a newly issued Seattle building permit for a substantive construction project reach final inspection sign-off within four years of issuance?",
+  "task_type": "binary-classification",
+  "title": "Seattle Building Permit Completion",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-seattle-building-permit-completion",
+    "github_release": "https://github.com/earino/factory-seattle-building-permit-completion/releases/tag/v-67a46c698fa813cc",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-seattle-building-permit-completion",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-seattle-building-permit-completion/tree/v-67a46c698fa813cc",
+    "version": "https://earino.github.io/factory-seattle-building-permit-completion/versions/v-67a46c698fa813cc/",
+    "website": "https://earino.github.io/factory-seattle-building-permit-completion/"
+  }
+}
