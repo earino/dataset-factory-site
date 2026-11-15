@@ -1,0 +1,317 @@
+{
+  "artifact_version": "b08c6a7bbfdcbbffb33de64be0cde0485e147bc0f82d96185db1b34ecdaab857",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 705,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "8fd2cc5fddfe08dd730eebb30f469a7e766ae0ab8ac0a6588cb17ca5df367dfb"
+    },
+    "LICENSE.md": {
+      "bytes": 1452,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "534f3a9515ef2ba52f829f2ea93b70c27c9a793d63074520ca5d55f37b62b302"
+    },
+    "README.md": {
+      "bytes": 6966,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/README.md",
+      "hf_path": "README.md",
+      "sha256": "c5fb04c9327aa64330235a7a220858b414234ade41beb02b6e5a6b9e2c928087"
+    },
+    "SOURCES.json": {
+      "bytes": 866,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "ac44d61878e927a5bf151f53dad6b749963614d339e2d4da445a483d52ee67d2"
+    },
+    "evaluation.json": {
+      "bytes": 3687,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "d82ff22e703c0ef2c3863fdc0b935e7cec1aeea330bf1d14f6f523d5a1b7dfe6"
+    },
+    "extract__meta.json": {
+      "bytes": 2073,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "98244d185dfe12cd41423606373ebe3292ed4afad427a9c686f87d4c9204d73d"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 1794860,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "61109a5ca4d04ec1b37a57b371eafe1180aa320609d997ea760c2fab32275733"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 1790624,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "081270314f95089ab88f992b1117f2413ce8cad1791c32d9d9f6a5f7f364e401"
+    },
+    "extract__public__train.csv": {
+      "bytes": 26019143,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "53ed51a93bc6eac17e7ed053d8bb86e754be83bbf331e4b0e26993fdb0797fb8"
+    },
+    "extract__quality.json": {
+      "bytes": 23522,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "47da9b697ea6de639cd472096c039dee9d5874145179b2247ac0f1801b156d38"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 18020,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "26d557203f68b6a2882d92d4480e78a28a6348ad72fe2a5c24ef916449b2cdb8"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 38162,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "413be9d4c6783257f9d3aa195dc10248ed074433dd9bd8a120aee461a4d612e1"
+    },
+    "reproduction__construction.json": {
+      "bytes": 24255,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "de5667de1df51f87d486b740b309e72f4d5ae344021f4782827b0e4dfe4354cd"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 20613,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "de64715560066c113267e7962ceadc36fe0ac097163c615fbfd16d0bd31ccfe8"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 15840,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "428a97aca5d9cbafefb48c40b4c4e1a72d8ab4944147dec52091ae8a3cdfbd4d"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 557800556,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "300815adf762a3ec0f4b75af358497b2e7920649313bfb8dbfb80f5b3c137c1d"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/download/v-5917644e4c46057e/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.6308999306866446,
+      "Validation calendar_identity brier": 0.028156884227565192,
+      "Validation full_model auc": 0.7923036225587178,
+      "Validation full_model brier": 0.021737287388064033,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.02345361286425233,
+      "Validation persistence auc": 0.7150794976540095,
+      "Validation persistence brier": 0.023949405944861946
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "sdwis-lcr-lead-action-level-next-period",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "U.S. Environmental Protection Agency (EPA) — Enforcement and Compliance History Online (ECHO), SDWA dataset compiled from the Safe Drinking Water Information System (SDWIS); underlying LCR results are reported to EPA by state/tribal primacy agencies",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-sdwis-lcr-lead-action-level-next-period",
+  "hf_repository": "earino/factory-sdwis-lcr-lead-action-level-next-period",
+  "licenses": {
+    "attribution": "No credit is required by the publisher. Recommended credit: \"U.S. Environmental Protection Agency, Enforcement and Compliance History Online (ECHO), SDWA dataset derived from the Safe Drinking Water Information System (SDWIS), extracted <quarter>\".",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "U.S. Government work — public domain in the United States under 17 U.S.C. § 105 (EPA Standard Open Data License); no publisher licence grant is required and none is implied for any third-party material"
+  },
+  "limitations": [
+    "Retrospective single-vintage problem: the download is one quarterly SDWIS snapshot (2026Q3 per the source), so system attributes (population served, owner type, primary source, primacy agency) are current values applied to historical periods. They are treated as time-invariant covariates, and this is not evidence that those values were available at each historical decision instant.",
+    "LCR summary reporting to SDWIS is uneven across primacy agencies; some states report only exceedances or only large/medium systems, so the population is whoever reported, not every U.S. community water system. Coverage by state must be reported and the label base rate interpreted per jurisdiction, not nationally.",
+    "The prior period's 90th percentile is the system's own laboratory result, but its entry into SDWIS may post-date the target period's start. The feature is causally clean (all contributing measurements end before the decision instant) but the public record's operational availability at that date is not asserted.",
+    "Monitoring schedule heterogeneity means the outcome horizon ranges from 6 months to 3 years, so rows are not directly comparable in difficulty; horizon length and period length are supplied as features and the horizon distribution must be reported.",
+    "Rows for the same system are serially correlated and share a stable unobserved plumbing stock, so persistence is a strong baseline and effective sample size is well below row count; the chronological split with embargo limits but does not eliminate this.",
+    "Rule drift inside the window: the December 2021 LCR revisions changed sampling site selection and added a lead trigger level, and the 2024 LCR Improvements lower the action level to 0.010 mg/L from 2027. Labels are therefore restricted to periods starting on or before 2023-12-31 under the 15 µg/L threshold, and results should not be extrapolated to the current rule.",
+    "SDWIS carries no site-level or service-line material data, so the strongest physical predictors (lead service line count, pipe age, water chemistry such as pH and alkalinity) are unavailable; only aggregate 90th-percentile values and system descriptors are usable.",
+    "ECHO's own terms disclaim warranty and discourage robotic querying; redistribution of derived tables is covered by the federal public-domain basis, but any state-supplied third-party material embedded upstream retains whatever rights its originator holds, and no worldwide dedication is claimed.",
+    "Current-vintage administrative snapshot: system size, source, ownership and primacy codes are current values applied to historical periods; their historical availability is not proven.",
+    "LCR summary reporting is uneven across primacy agencies, so the population is the reporting community systems, not every United States community water system.",
+    "No full-row availability ledger exists; training label timing is unverified and this is retrospective research rather than a proven historical forecasting task.",
+    "Rows for the same system are serially correlated and share an unobserved plumbing stock, so effective sample size is below row count.",
+    "Lead service line counts, pipe age, pH and alkalinity are unavailable in SDWIS, so the strongest physical predictors are missing.",
+    "Labels stop at target period start 2023-12-31 to remain under the 15 microgram per litre action level before the 2024 Lead and Copper Rule Improvements transition.",
+    "Reference code lookups are scoped by VALUE_TYPE: LCR violations use the documented RULE_CODE 350 anchor plus VALUE_TYPE-scoped violation codes, and LSLR milestones use EVENT_MILESTONE_CODE. The construction asserts nonzero milestone records and at least one included row with a prior milestone rather than shipping a constant feature; state coding practice may still vary.",
+    "Missing copper, prior-prior lead and target measurements remain missing; unknown outcomes are excluded, never converted to negative labels.",
+    "Rows are system-period events uniquely identified by row_id; PWSID repeats across chronological splits by design, so system-level serial correlation remains and the qualification cluster is PWSID.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "At the first day of a community water system's next Lead and Copper Rule tap-sampling period, will that period's reported 90th-percentile lead concentration exceed the 15 µg/L action level?",
+      "Population: Community water systems in the EPA ECHO SDWA national download whose PWS_TYPE_CODE field is CWS and that have at least two PB90 lead 90th-percentile summary records, where the target PB90 period starts strictly after the prior PB90 period end and no more than four years later, with target period start on or before 2023-12-31. No filter on current PWS_ACTIVITY_CODE. Primacy agencies with fewer than 20 eligible pairs whose prior period ended before 2014-01-01 are excluded from all splits; this floor uses training-era feature dates only.",
+      "Target: 1 if the target monitoring period's PB90 record (lead 90th-percentile summary, SDWA_LCR_SAMPLES.CONTAMINANT_CODE = PB90) has SAMPLE_MEASURE > 0.015 mg/L, else 0. Target periods are restricted to SAMPLING_START_DATE <= 2023-12-31 so the 15 µg/L action level of 40 CFR 141.80(c)(2) (2021 revision, in force through the LCR Improvements transition) governs the label.",
+      "Prediction time: First day, the SAMPLING_START_DATE, of the target PB90 monitoring period. Every prior lead or copper measurement, violation date and milestone date used is strictly before that date; current-vintage system attributes are time-invariant covariates.",
+      "Splits: Chronological on target SAMPLING_START_DATE, fixed before any model fitting: train 1995-01-01 to 2013-12-31; eval 2014-01-01 to 2018-12-31; holdout 2019-01-01 to 2023-12-31. Embargo: drop any row whose feature (prior) period SAMPLING_END_DATE is on or after the first day of the split it would fall into, so no feature window crosses a boundary. Rows are never shuffled; each system contributes at most one row per target period, and duplicate PB90 records for the same period are collapsed to the latest SAR_LAST_REPORTED_DATE before pairing. Boundaries and the agency floor are not to be revised after seeing any metric.",
+      "Outcome horizon: One monitoring period: 6 months, 12 months, or 36 months after the decision instant depending on the system's schedule category; pairs whose target period starts more than 4 years after the decision instant are excluded.",
+      "Inputs: prior_pb90_mg_l: Lead 90th-percentile concentration reported for the immediately preceding monitoring period, converted to mg/L.; prior_cu90_mg_l: Copper 90th-percentile concentration for the same prior period, converted to mg/L.; prior_pb90_ratio_to_al: prior_pb90_mg_l divided by the 0.015 mg/L action level.; pb90_change_from_previous: Difference between the prior PB90 result and the PB90 result before it, in mg/L.; n_prior_periods_observed: Count of dated PB90 monitoring periods on record before the target period start.; ever_exceeded_before: Whether any PB90 record before the target period start exceeded 0.015 mg/L.; gap_days_between_periods: Days between the prior period SAMPLING_END_DATE and the target period SAMPLING_START_DATE.; prior_period_length_days: Length of the prior monitoring period in days.; population_served_count: Estimated average daily population served, a system-size measure.; primary_source_code: Ground water, surface water or purchased source category.; owner_type_code: Ownership category.; primacy_agency_code: Two-character state or EPA region primacy code.; prior_lcr_violations_count: Count of identified Lead and Copper Rule violations with NON_COMPL_PER_BEGIN_DATE before the target period start.; prior_lslr_milestone: Whether an identified lead service line replacement milestone was recorded before the target period start."
+    ],
+    "title": "Sdwis Lcr Lead Action Level Next Period"
+  },
+  "publication_commits": {
+    "github": "4ae946c5db9270b1a7beb47a80aa833a870db5f8",
+    "huggingface": "85e1d35ad1654d5450c66fc0054fc46a09dd2baf"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "484a610e65b26a8783c4ea7ceb5c7ddbc0ab46c179f226cf12949ca499cad5d2",
+  "release_date": "2026-11-15",
+  "release_schema": "factory-1",
+  "release_tag": "v-5917644e4c46057e",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "U.S. Environmental Protection Agency (EPA) — Enforcement and Compliance History Online (ECHO), SDWA dataset compiled from the Safe Drinking Water Information System (SDWIS); underlying LCR results are reported to EPA by state/tribal primacy agencies",
+    "url": "https://echo.epa.gov/tools/data-downloads/sdwa-download-summary"
+  },
+  "splits": {
+    "eval": {
+      "rows": 17368
+    },
+    "holdout": {
+      "rows": 17568
+    },
+    "train": {
+      "rows": 257379
+    }
+  },
+  "summary": "At the first day of a community water system's next Lead and Copper Rule tap-sampling period, will that period's reported 90th-percentile lead concentration exceed the 15 µg/L action level?",
+  "task_type": "binary-classification",
+  "title": "Sdwis Lcr Lead Action Level Next Period",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period",
+    "github_release": "https://github.com/earino/factory-sdwis-lcr-lead-action-level-next-period/releases/tag/v-5917644e4c46057e",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-sdwis-lcr-lead-action-level-next-period",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-sdwis-lcr-lead-action-level-next-period/tree/v-5917644e4c46057e",
+    "version": "https://earino.github.io/factory-sdwis-lcr-lead-action-level-next-period/versions/v-5917644e4c46057e/",
+    "website": "https://earino.github.io/factory-sdwis-lcr-lead-action-level-next-period/"
+  }
+}
