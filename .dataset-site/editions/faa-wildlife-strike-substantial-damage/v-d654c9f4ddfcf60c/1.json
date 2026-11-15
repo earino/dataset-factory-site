@@ -1,0 +1,316 @@
+{
+  "artifact_version": "ae75ab5acd1b27aeb29c4d414aa78610d797fe43068062bafd1574bb272dc2f9",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 675,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "361514ee844d897c04b414b2f124e4b5dd6766ac15a9fdf1d089fd49bba872ea"
+    },
+    "LICENSE.md": {
+      "bytes": 1333,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "c5747fe28b4a7e16c3181646c59ab19c0af5a967ae429175033800062fc07c29"
+    },
+    "README.md": {
+      "bytes": 6461,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/README.md",
+      "hf_path": "README.md",
+      "sha256": "ccea2fd575b8f0c32e0f858b5fea782d3f84cc3e18a3ebfc50b88604efaa8b0e"
+    },
+    "SOURCES.json": {
+      "bytes": 826,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "43c70a543a546d9246de6001ae857ab207f21d11ca248d8785f2125ce4ccb50e"
+    },
+    "evaluation.json": {
+      "bytes": 3188,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "17e6ab77d38ab1c074ed211397b50344dd046711c5f25285634c9615e4684531"
+    },
+    "extract__meta.json": {
+      "bytes": 1742,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "0d47b6bb7c9334b3cdf41648492da7bc8a83379fc14c811a57696b195237f951"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 2184396,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "93f873d655ca600d170755ceb73a9769992938d8f56fa39a9ab9c7d54c7f3aa4"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 2849864,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "eacff65337839c74701b802fb712dc8a60fc81e56168f0a176602446519f910e"
+    },
+    "extract__public__train.csv": {
+      "bytes": 7394525,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "276015143c997004274d25b9b7329e125d53008dab32328ee373d173185bad75"
+    },
+    "extract__quality.json": {
+      "bytes": 46339,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "9e6e2b3c956847cdd0f8185fc01129fff344844ced8b7277d07ecaf7291b93b6"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 17702,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "4747ab0ebaef1c10efb2af148ef9d07e72f1a6f6e11bcf076c75ab0c864e7ef3"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 31658,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "48e56bb6e681be0c11a5143d7a93075eca9f29cbafdcfc1a1ad34d2bb459bc1a"
+    },
+    "reproduction__construction.json": {
+      "bytes": 50122,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "9ffa25f550fb05541e11eca81b157d7313f3e9a7fb397a37b5e8108e87cf55f7"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 20201,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "801600bc7cb1de4c623c2012c2bd53591fe8c8d2e08f25da65b23e04be1562a5"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 11626,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "1b53545ce842520b4ede2bf2e188bcb7c6dcc75643021f1d7040b97fb72caf80"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 267189808,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "ec96ef93f55357768ccbd45ad422eb1402a25f5e3b313627402994a371b3beb4"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/download/v-d654c9f4ddfcf60c/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.6029831198605038,
+      "Validation calendar_identity brier": 0.012772930582160788,
+      "Validation full_model auc": 0.8898529197621798,
+      "Validation full_model brier": 0.010477789247973546,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.011044156929686171
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "faa-wildlife-strike-substantial-damage",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "Federal Aviation Administration (FAA) and U.S. Department of Agriculture, Wildlife Services (USDA/WS), National Wildlife Strike Database",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-faa-wildlife-strike-substantial-damage",
+  "hf_repository": "earino/factory-faa-wildlife-strike-substantial-damage",
+  "licenses": {
+    "attribution": "U.S. Department of Agriculture / Animal and Plant Health Inspection Service / Wildlife Services",
+    "citation": "Dolbeer, R.A., M.J. Begier, P.R. Miller, J.R. Weller, and W. Major. 2026. Wildlife Strikes to Civil Aircraft in the United States, 1990-2025. National Wildlife Strike Database Serial Report Number 32. Federal Aviation Administration, Washington, DC.",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "U.S. Government work - public domain in the United States under 17 U.S.C. Sec. 105 (no licence grant applied by FAA)"
+  },
+  "limitations": [
+    "Strike reporting is voluntary and FAA states an overall bias toward reporting damaging strikes, so the 1.2% positive rate is a reporting artefact and not an aircraft-level risk of damage.",
+    "SPECIES is excluded even though the FAA's own analysis finds body mass the best single predictor of damage, because identification is usually done after the strike (Smithsonian Feather Lab, 24 hours to 10 days); SIZE is a coarse pilot-perceived proxy, so the frozen feature set is deliberately weaker than published species-based models.",
+    "The label is an adjudicated code selected by the NWSD manager from the report and can be revised; the snapshot is current-vintage, so this shows what can be reconstructed retrospectively, not that the damage code was available to an operator at the time.",
+    "Dropping rows with blank DAMAGE is a label-availability filter applied after the event and may correlate with reporting quality, so the modelling population is not a random sample of strikes.",
+    "17 U.S.C. Sec. 105 is a U.S. domestic basis only; no worldwide dedication is asserted and some jurisdictions may still protect the compilation, so non-U.S. re-users must check local law. Nothing here overrides any third-party right.",
+    "Strike reports are third-party submissions; to avoid personal data and third-party text the release drops REPORTED_NAME, REPORTED_TITLE, REG, FLT, REMARKS and COMMENTS, and uses only coded and numeric fields.",
+    "Fleet mix and reporting practice drift heavily across 1990-2022 (reports rise roughly tenfold and the damaging share falls from 18% to about 4%), so the chronological holdout tests transport under drift rather than stationarity.",
+    "Positives are rare enough that the 2019-2022 holdout should be expected to contain only several hundred positive events, so subgroup and calibration estimates there will be noisy.",
+    "Current-vintage FAA export; no full-row availability ledger. Historical availability of strike-report fields is assumed, so training label timing is unverified.",
+    "Voluntary reporting is biased toward damaging strikes, so the positive rate is not an aircraft-level risk estimate.",
+    "DAMAGE is an adjudicated code selected after the event; it is used only as the target and is not a feature.",
+    "Blank DAMAGE rows are dropped, which is an outcome-availability filter and not a random sample; the prior build measured a realized positive rate near 2.3 percent (3,311 of 142,871) in the frozen population, above the FAA's published 1 percent, because unlabelled rows are removed before the rate is formed.",
+    "NUM_STRUCK and NUM_SEEN are ordinal bands on the report form, so the animal-number features carry band membership rather than an exact count; a strike with 3 animals and one with 10 animals share a single category, and a raw integer entered in the workbook is folded into the band containing it.",
+    "SPECIES and other post-strike or part-inspection fields are excluded even though species mass is a strong damage predictor.",
+    "The selected member in this snapshot is Public.xlsx sheet Sheet1; the builder still resolves roles by normalised alias and fails with the selected member, the observed header list and the unresolved role names if the publisher renames a field.",
+    "Rows with OPID tokens that are not three-letter airline codes and not BUS, PVT, GOV or MIL are counted, left missing and never guessed into a class, so operator information is lost for that share; no emitted value falls outside the documented vocabulary.",
+    "No persistence reference applies because each row is an independent strike event; the calendar/identity reference uses state, month and ac_mass and must be fit on training labels only.",
+    "No label-derived group-rate features are shipped; any reference rate must use only training labels whose outcome windows closed before each scored row.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "Given only what is known when a wildlife strike is reported, will the aircraft be assessed as substantially damaged or destroyed (ICAO major damage)?",
+      "Population: Reported civil-aircraft wildlife strikes with incident_date from 1990-01-01 through 2022-12-31, state in the 50 U.S. states or DC, at least one of ac_class or ac_mass present, and a DAMAGE value in N, M, M?, S or D. Eligibility is otherwise strike-time: date, location, aircraft descriptors and reported encounter facts. The one later quantity used in eligibility is the damage code itself, and only to drop unlabelled rows.",
+      "Target: 1 if DAMAGE is S (substantial) or D (destroyed); 0 if DAMAGE is N (none), M (minor) or M? (undetermined level). Rows with a blank DAMAGE are dropped, not labelled 0.",
+      "Prediction time: At the strike report, on the day of the strike, before the post-flight maintenance inspection and before laboratory species identification. Features are aircraft descriptors, encounter geometry, pilot observations, date/location and operator class; DAMAGE and all post-strike fields are excluded.",
+      "Splits: Fixed cut on INCIDENT_DATE, no random resampling: train 1990-01-01 to 2013-12-31; eval 2014-01-01 to 2018-12-31; holdout 2019-01-01 to 2022-12-31. No embargo is required inside the series because each row is one independent strike and every feature is fixed at strike time, so a later row cannot reveal an earlier label; the 2022-12-31 end cut is a reporting/validation lag buffer of about 3.7 years against a snapshot current to August 2026. Boundaries are frozen before any modelling.",
+      "Outcome horizon: Same event: severity is established by inspection after the aircraft returns to service and is coded by the NWSD manager, usually within days; records are subsequently revised (LUPDATE), so this is a coded outcome, not a scheduled future event.",
+      "Inputs: ac_mass: FAA aircraft mass category 1 to 5, where category 1 is 2,250 kg or less and category 5 is above 272,000 kg; ac_class: Aircraft type code: A airplane, B helicopter, C glider, D balloon, F dirigible, I gyroplane, J ultralight, Y other, Z unknown; num_engs: Number of engines on the aircraft; type_eng: Powerplant type: A reciprocating, B turbojet, C turboprop, D turbofan, E none, F turboshaft, Y other; phase_of_flt: Phase of flight during the strike (approach, climb, en route, landing roll, take-off run, taxi, parked, local, unknown); height_agl: Height above ground level in feet at the strike; speed_kts: Indicated airspeed in knots at the strike; distance_nm: Distance from the airport in nautical miles at the strike; birds_struck: Reported number of animals struck, as the published ordinal band (0, 1, 2-10, 11-100, more than 100) rather than an exact count; birds_seen: Number of animals seen by the pilot, as the published ordinal band (0, 1, 2-10, 11-100, more than 100) rather than an exact count; size: Pilot's perceived relative size of the animal struck; ordinal, with the larger animal entered when several are involved; warned: Whether the pilot was warned of birds or wildlife before the strike; time_of_day: Light conditions at the strike; sky: Cloud cover reported at the strike; precip: Precipitation reported at the strike, with NONE as the no-precipitation category alongside Fog, Rain and Snow; month: Calendar month of the strike, for seasonality; state: U.S. state of the airport where the strike is located; operator_class: Operator type derived from OPID: airline for a three-letter ICAO code, versus BUS, PVT, GOV or MIL"
+    ],
+    "title": "Faa Wildlife Strike Substantial Damage"
+  },
+  "publication_commits": {
+    "github": "cb63dc4e99b2acfdfbf90ed6d063151981c038d9",
+    "huggingface": "1463654328b312c085db26dd7934a4b876860f89"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "9a9209eb7a8d85b5b210367ad7080488ce99425a0b7cf8d2b105be17321f21b3",
+  "release_date": "2026-11-15",
+  "release_schema": "factory-1",
+  "release_tag": "v-d654c9f4ddfcf60c",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "Federal Aviation Administration (FAA) and U.S. Department of Agriculture, Wildlife Services (USDA/WS), National Wildlife Strike Database",
+    "url": "https://wildlife.faa.gov/assets/fieldlist.pdf"
+  },
+  "splits": {
+    "eval": {
+      "rows": 33250
+    },
+    "holdout": {
+      "rows": 25425
+    },
+    "train": {
+      "rows": 84196
+    }
+  },
+  "summary": "Given only what is known when a wildlife strike is reported, will the aircraft be assessed as substantially damaged or destroyed (ICAO major damage)?",
+  "task_type": "binary-classification",
+  "title": "Faa Wildlife Strike Substantial Damage",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage",
+    "github_release": "https://github.com/earino/factory-faa-wildlife-strike-substantial-damage/releases/tag/v-d654c9f4ddfcf60c",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-faa-wildlife-strike-substantial-damage",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-faa-wildlife-strike-substantial-damage/tree/v-d654c9f4ddfcf60c",
+    "version": "https://earino.github.io/factory-faa-wildlife-strike-substantial-damage/versions/v-d654c9f4ddfcf60c/",
+    "website": "https://earino.github.io/factory-faa-wildlife-strike-substantial-damage/"
+  }
+}
