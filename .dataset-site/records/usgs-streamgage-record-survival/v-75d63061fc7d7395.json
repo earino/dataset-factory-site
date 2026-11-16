@@ -1,0 +1,313 @@
+{
+  "artifact_version": "be72de55eb39dc02a4465ad1a926ab93deb921b7c5431f21d9bbb166ded7998a",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 645,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "3205f6a1f650fb1838425b79b32a9dd80ed1bdc82327b82fc609f5e4991673fd"
+    },
+    "LICENSE.md": {
+      "bytes": 1214,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "fdf2bf670f587c2c8bf3ececfd635a243ee3caf24ad86ae7b62d99b32fddfa92"
+    },
+    "README.md": {
+      "bytes": 5481,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/README.md",
+      "hf_path": "README.md",
+      "sha256": "b470288b9a10d7fe2161122d6260c6ceaf19ed9dc9ca18811a8b0049e01add50"
+    },
+    "SOURCES.json": {
+      "bytes": 9318,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "cedc0a0f716023a2e13c05698885b83badeb37a10ef4ff76a4adb71639c762ef"
+    },
+    "evaluation.json": {
+      "bytes": 2284,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "7a28a4dde083ac0fbd504654c6a90a6b2ff03d08dc3e7b1bf13c76af69d38011"
+    },
+    "extract__meta.json": {
+      "bytes": 1629,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "26a4119668cddf8bc407b4a3bd67b7d28196d1e037de445d34ecdb9b6ee1b4e7"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 45641,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "cfcb9d6fee9f84ec36c395e6204272366748a04b1ba2de8741493bbeb0eca341"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 35781,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "5300aac135acbf6e82df95779c256f1a9978ec0196db5d7008d3564ebdd9c88b"
+    },
+    "extract__public__train.csv": {
+      "bytes": 171103,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "6fad0998ea8a4323e1ee8bc4a4ac946934d464f4c341df0558c8816c4b66bf38"
+    },
+    "extract__quality.json": {
+      "bytes": 33238,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "648b8cbb1e6a6f445f3f7180eed4fac03731a3a4b8456c7ff7416a65967b76a8"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 17933,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "8a9ea935e16e46fdfdd83f4bc85dd300ba00eb485f35c0e0b288556b77d66cc3"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 39432,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "bd04a17f6cd640ffa27aa9869092903baf129f8588493f9a608f4707583c9b02"
+    },
+    "reproduction__construction.json": {
+      "bytes": 37001,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "9bd0513392b68244542f2ed821e60e90c774f061a0388df4f94b3342bf467dbd"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 19677,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "f3eac57bc97cce637f08b58b84e27cf87f7a2525e767dbdc97dd08ab9b67e48a"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 9642,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "a6de343ccdcf162f0cac823166fe0bb3b6a5b1ea5539da0d3936f005dfddf31f"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 4561162,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "e91b25b99d7ea06190b17ded2c003bed60c1d9fbc1ff6bdc4534ca23027bbea3"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/download/v-75d63061fc7d7395/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.5645200096238672,
+      "Validation calendar_identity brier": 0.24113307202371798,
+      "Validation full_model auc": 0.7181944555831795,
+      "Validation full_model brier": 0.17094465093118094,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.18819661358878198
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "usgs-streamgage-record-survival",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "U.S. Geological Survey (USGS), U.S. Department of the Interior",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-usgs-streamgage-record-survival",
+  "hf_repository": "earino/factory-usgs-streamgage-record-survival",
+  "licenses": {
+    "attribution": "Data compiled by the U.S. Geological Survey",
+    "citation": "U.S. Geological Survey, 2026, USGS water data for the Nation: U.S. Geological Survey National Water Information System database, accessed November 15, 2026, at https://doi.org/10.5066/F7P55KJN",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "U.S. public domain: government-work exclusion under 17 U.S.C. 105(a); USGS states its produced data are in the U.S. Public Domain. No upstream licence grant and no CC0 designation on this database record."
+  },
+  "limitations": [
+    "Current-vintage retrospective design: drainage area, altitude, site type and the primary/approval flag are read from today's record, not from an archived 2001-2019 snapshot. They are plausible establishment-time attributes but this does not prove historical operational availability.",
+    "A daily mean discharge series can end because publication changed (gage continues with stage only, converts to instantaneous-only, or is transferred to another agency), not only because the physical gage closed. The label is record continuation, not infrastructure survival.",
+    "Series with internal gaps count as continued if the last observation passes the fifth anniversary; no data-completeness threshold is applied, which the next task may add as a documented secondary variant.",
+    "USGS `begin` dates for older or migrated sites can reflect data-system history rather than the first day of physical operation; restricting to 2001-2019 reduces but does not eliminate this.",
+    "Cooperating-agency and non-USGS records are excluded by the agency_code = 'USGS' filter, so the population is USGS-operated records only; this also keeps the statutory public-domain basis clean.",
+    "17 U.S.C. 105 is a U.S.-law exclusion and the legislative history states it has no effect on protection abroad; we claim U.S. public-domain status only and assert no worldwide dedication.",
+    "Unauthenticated API rate limits apply; an api_key may be needed for bulk paging, and the service's page size and cursor behaviour should be handled defensively rather than assumed.",
+    "Labels freeze at the 2026-11-15 snapshot; all outcome windows close by 2024-12-31, so late data revisions should not change this cohort's labels, but a later rebuild will produce a slightly different population.",
+    "State and district features partly encode funding and program shocks, so the task measures administrative persistence as well as hydrologic or infrastructure factors; no causal interpretation is warranted.",
+    "Current-vintage retrospective design: drainage area, contributing area, altitude, site type, state, district and the primary flag are read from the current record, not an archived 2001-2019 snapshot, so their operational availability at establishment is unverified.",
+    "The label is record continuation, not physical gage survival: a series can end because publication changed, the site converted to stage-only, or the record moved to another agency.",
+    "The 365 day continuation exclusion can only see sibling series that begin inside the 2001-2019 download window, so a location whose earlier series began before 2001 and overlapped the new begin date cannot be detected from this extract.",
+    "The nearby gage count and the regional termination rate are computed from series present in this single download, which excludes cooperating-agency records and series beginning outside the window.",
+    "No full-row availability ledger exists, so training label timing is unverified and the task is not a forecasting claim.",
+    "Missing site metadata such as drainage area, contributing area and altitude stay missing rather than being imputed as zero.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "When a new USGS daily mean streamflow record opens at a monitoring location, will that record still be active five years later?",
+      "Population: USGS monitoring locations (agency code USGS) in the 50 states, DC and territories, excluding ANSI state codes 81 to 86 and 90 to 98 used for Mexican and Canadian subdivisions, that carry a primary daily mean discharge series (parameter 00060, statistic 00003, data type daily values) whose begin falls between 2001-01-01 and 2019-12-31. One row per location, taking the earliest such series. A location is excluded when another 00060 daily mean series at the same location was active at any time in the 365 days before that begin. Series with a null end are dropped.",
+      "Target: y = 1 if the time series' `end` timestamp (most recent observation in that series) is on or after the fifth anniversary of `begin`; y = 0 otherwise. Series with no `end` value are dropped, never imputed.",
+      "Prediction time: The series begin date (first day of the daily mean discharge record), using only site metadata and facts about the record and the surrounding network at the moment it opens; no later observation of that same series is used as an input.",
+      "Splits: Chronological by `begin` date: train 2001-01-01 to 2012-12-31; eval 2013-01-01 to 2015-12-31; holdout 2016-01-01 to 2019-12-31. A 60-day embargo gap is dropped immediately after each boundary (2013-01-01 to 2013-03-01 and 2016-01-01 to 2016-03-01) so multi-site installation projects do not straddle splits. Rows are distinct locations, so no location appears in more than one split and no row's outcome window is another row's input.",
+      "Outcome horizon: Five years from the first day of record (calendar fifth anniversary; about 1,826 days).",
+      "Inputs: drainage_area: Basin area upstream of the gage in square miles.; contributing_drainage_area: Contributing area in square miles when it differs from the total drainage area.; altitude: Gage or land surface altitude in feet on the recorded vertical datum.; huc2_region: First two digits of the 12 digit hydrologic unit code, giving the hydrologic region.; state_code: Two digit ANSI state code of the location, after excluding Mexican and Canadian subdivision codes 81 to 86 and 90 to 98.; district_code: USGS Water Science Center district code that operates the location. The declared state and district group was expanded into these two concrete columns.; site_type_code: Hydrologic setting code such as ST stream, ST-CA canal, ST-DCH ditch, LK lake, ES estuary.; has_instantaneous_discharge_series: 1 when the same location also carries an instantaneous discharge series (parameter 00060, statistic 00011) whose begin is on or before the daily mean begin date; proxy for a telemetry equipped, operations funded gage.; nearby_active_gage_count_50km: Count of distinct other USGS locations with a daily mean discharge series active on the decision date within 50 km, computed by haversine from feature coordinates.; huc2_prior_termination_rate: Share of training-window daily mean discharge series in the same hydrologic region whose fifth anniversary preceded the decision date and whose record had already ended before it.; begin_month: Calendar month 1 to 12 in which the record opened, capturing installation timing."
+    ],
+    "title": "Usgs Streamgage Record Survival"
+  },
+  "publication_commits": {
+    "github": "2921349631a734b75d5df06cebdce27a2d4cc872",
+    "huggingface": "069d3cf9d8fcfa5b890d5bb10217bd93a615df98"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "caeb151ddc6c952315ad6d9e296c46c0bc37c8a492254daed60e9c5ac094a5d0",
+  "release_date": "2026-11-16",
+  "release_schema": "factory-1",
+  "release_tag": "v-75d63061fc7d7395",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "U.S. Geological Survey (USGS), U.S. Department of the Interior",
+    "url": "https://api.waterdata.usgs.gov/docs/ogcapi/"
+  },
+  "splits": {
+    "eval": {
+      "rows": 448
+    },
+    "holdout": {
+      "rows": 574
+    },
+    "train": {
+      "rows": 2438
+    }
+  },
+  "summary": "When a new USGS daily mean streamflow record opens at a monitoring location, will that record still be active five years later?",
+  "task_type": "binary-classification",
+  "title": "Usgs Streamgage Record Survival",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-usgs-streamgage-record-survival",
+    "github_release": "https://github.com/earino/factory-usgs-streamgage-record-survival/releases/tag/v-75d63061fc7d7395",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-usgs-streamgage-record-survival",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-usgs-streamgage-record-survival/tree/v-75d63061fc7d7395",
+    "version": "https://earino.github.io/factory-usgs-streamgage-record-survival/versions/v-75d63061fc7d7395/",
+    "website": "https://earino.github.io/factory-usgs-streamgage-record-survival/"
+  }
+}
