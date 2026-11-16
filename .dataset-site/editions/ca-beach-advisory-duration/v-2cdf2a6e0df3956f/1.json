@@ -1,0 +1,314 @@
+{
+  "artifact_version": "bbeefbfb31599f49805ff9f96a3c906953ee1cc565796c1d7faee484fdd91ca5",
+  "assets": {
+    "LICENSE-EVIDENCE.json": {
+      "bytes": 692,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/LICENSE-EVIDENCE.json",
+      "hf_path": "LICENSE-EVIDENCE.json",
+      "sha256": "6e513671f4f09bc4d34f819adbd8f7be001ac8bea2f2813713f056f2130cc6a5"
+    },
+    "LICENSE.md": {
+      "bytes": 1043,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/LICENSE.md",
+      "hf_path": "LICENSE.md",
+      "sha256": "69362cec3d69b8f76603a7dafc68fded2326f40ef5d21f2dc734ceae828c9210"
+    },
+    "README.md": {
+      "bytes": 6018,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/README.md",
+      "hf_path": "README.md",
+      "sha256": "4bab918ed68fb32ff237070c9da36ef16a9f18f50890ea0f1227abf21783d0db"
+    },
+    "SOURCES.json": {
+      "bytes": 1465,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/SOURCES.json",
+      "hf_path": "SOURCES.json",
+      "sha256": "0fd4cd8725ec9ae490410b0c372442ccec0a4a560d820e762a370ae6fd209856"
+    },
+    "evaluation.json": {
+      "bytes": 2722,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/evaluation.json",
+      "hf_path": "evaluation.json",
+      "sha256": "9503e8fd8c27fd76f900df843aeac60f4fb169bc8ee4b2001bc9f6d946bdd5a7"
+    },
+    "extract__meta.json": {
+      "bytes": 1794,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/extract__meta.json",
+      "hf_path": "extract/meta.json",
+      "sha256": "25105f058874dd48410c8f22be6b8d7a69f89503a85c60a27f7b3d2e04dbfee8"
+    },
+    "extract__private__holdout.csv": {
+      "bytes": 850852,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/extract__private__holdout.csv",
+      "hf_path": "extract/private/holdout.csv",
+      "sha256": "7757772e6673a3d1e5780bd05d0264366c9c521a64dba53f86f4afa9b1b23091"
+    },
+    "extract__public__eval.csv": {
+      "bytes": 779839,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/extract__public__eval.csv",
+      "hf_path": "extract/public/eval.csv",
+      "sha256": "8e045ba24a4b79f43efbae9a30e3a1374b90fcff97735a72de144c28a3f38b3d"
+    },
+    "extract__public__train.csv": {
+      "bytes": 1857043,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/extract__public__train.csv",
+      "hf_path": "extract/public/train.csv",
+      "sha256": "36bac98503700e0b28c990e6efcd36ef0f761e6a4607501ac9eda6cfd143f6aa"
+    },
+    "extract__quality.json": {
+      "bytes": 22959,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/extract__quality.json",
+      "hf_path": "extract/quality.json",
+      "sha256": "605abbe839f768089dd2afdbeda99ced0217ddee62c8da037b442ea9a17fd7bb"
+    },
+    "get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/get_dataset.py",
+      "hf_path": "get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "qualification.json": {
+      "bytes": 17499,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/qualification.json",
+      "hf_path": "qualification.json",
+      "sha256": "a760824c8e6a74063194d821c5f3fd3f7a9d57a281a44f431d33cc51caef37d0"
+    },
+    "reproduction__LICENSE-CC0-1.0.txt": {
+      "bytes": 7048,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__LICENSE-CC0-1.0.txt",
+      "hf_path": "reproduction/LICENSE-CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "reproduction__LICENSE-MIT.txt": {
+      "bytes": 1124,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__LICENSE-MIT.txt",
+      "hf_path": "reproduction/LICENSE-MIT.txt",
+      "sha256": "56b932ff064e5da113ae10175c8546325f64f26e1ece71683ffcbf8b2304fe1c"
+    },
+    "reproduction__artifact_scrub.py": {
+      "bytes": 11369,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__artifact_scrub.py",
+      "hf_path": "reproduction/artifact_scrub.py",
+      "sha256": "8c663253e691a7b8751f9c853b40a3752a833360caafb1ea8e8f534e64af4b68"
+    },
+    "reproduction__build.py": {
+      "bytes": 40774,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__build.py",
+      "hf_path": "reproduction/build.py",
+      "sha256": "ec45f566608525056cd677173bc96f2869d4ee4ff0b2a99818e8976f8aae032a"
+    },
+    "reproduction__construction.json": {
+      "bytes": 26026,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__construction.json",
+      "hf_path": "reproduction/construction.json",
+      "sha256": "d4a8ce1b8550892328e62fd59ff34c26516f3bef4c336555963fcaebe007f16c"
+    },
+    "reproduction__dataset_package.py": {
+      "bytes": 7927,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__dataset_package.py",
+      "hf_path": "reproduction/dataset_package.py",
+      "sha256": "c2364defe58dcc99322be59a1bb04894ce00e823ce37afeb37bc31012f744327"
+    },
+    "reproduction__dataset_run.py": {
+      "bytes": 12381,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__dataset_run.py",
+      "hf_path": "reproduction/dataset_run.py",
+      "sha256": "8085fae14d6e93b852e692e18c1ef72113a3601f48f78901b6d1ae6db278de57"
+    },
+    "reproduction__get_dataset.py": {
+      "bytes": 3680,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__get_dataset.py",
+      "hf_path": "reproduction/get_dataset.py",
+      "sha256": "fad89222d50f9d9709225c34909be74c591df409c08b8b5951eba9d3cadfdd48"
+    },
+    "reproduction__leakage_battery.py": {
+      "bytes": 17379,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__leakage_battery.py",
+      "hf_path": "reproduction/leakage_battery.py",
+      "sha256": "adbf7ee0aca0012b78cc1f1e4aeb968a23717cae30f66a02e080215e75f830e3"
+    },
+    "reproduction__provenance.json": {
+      "bytes": 573,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__provenance.json",
+      "hf_path": "reproduction/provenance.json",
+      "sha256": "11a9c4f355a6345b1a64b1bb34afd669daa68a62b53b6635c45f9861295a81a7"
+    },
+    "reproduction__qualify_dataset.py": {
+      "bytes": 66067,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__qualify_dataset.py",
+      "hf_path": "reproduction/qualify_dataset.py",
+      "sha256": "bff6d43d0904182e2612c32bab702e41addbf389904a236c209e78be39e37a6b"
+    },
+    "reproduction__recovery_recipes.py": {
+      "bytes": 17609,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__recovery_recipes.py",
+      "hf_path": "reproduction/recovery_recipes.py",
+      "sha256": "f64c542fcda232169c95ace17421b45275194b934938c0ea4c9b68e6f844ad0e"
+    },
+    "reproduction__requirements.txt": {
+      "bytes": 160,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__requirements.txt",
+      "hf_path": "reproduction/requirements.txt",
+      "sha256": "5c72f3268174d20364624f76680e189c408a05dba2e7b8cfe12d077b3865e7f0"
+    },
+    "reproduction__source.json": {
+      "bytes": 19529,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__source.json",
+      "hf_path": "reproduction/source.json",
+      "sha256": "459593da19d1d3adb33a7eb59faa046d5bb4aac7f386f1a36b948d27f2371686"
+    },
+    "reproduction__source_io.py": {
+      "bytes": 5607,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__source_io.py",
+      "hf_path": "reproduction/source_io.py",
+      "sha256": "0c60eed4968cd342148efbaac7e4fa98f00708d8e6c14c0929928687b9af1ea3"
+    },
+    "reproduction__train.py": {
+      "bytes": 2500,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__train.py",
+      "hf_path": "reproduction/train.py",
+      "sha256": "a3c6bcf13735bc85c52129ded68f839090dffdc266ebc3810dc61b2e6ea5e7e8"
+    },
+    "reproduction__validate.py": {
+      "bytes": 1277,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__validate.py",
+      "hf_path": "reproduction/validate.py",
+      "sha256": "b597e7f84fed614e64b4a86fbecbd6ec0145916a24d0d221a796586976418e7b"
+    },
+    "reproduction__validate.sh": {
+      "bytes": 482,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/reproduction__validate.sh",
+      "hf_path": "reproduction/validate.sh",
+      "sha256": "3f06ca48f11c2e05d331b4d8394284925de660c1d4b086d2f8243959e83b7e6d"
+    },
+    "source-checks.json": {
+      "bytes": 14175,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/source-checks.json",
+      "hf_path": "source-checks.json",
+      "sha256": "e1299c2a1c979d45da459d76dca47741a12db8daa438a4b5032cc9e9b30b3d63"
+    },
+    "source-snapshot.tar.gz": {
+      "bytes": 2809978,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/source-snapshot.tar.gz",
+      "hf_path": "source-snapshot.tar.gz",
+      "sha256": "5746d68b4443c15ed854e88b3c127b47fc7f52fa9c156a256a55fbe9bd6fcda6"
+    },
+    "verify_dataset.py": {
+      "bytes": 1276,
+      "download": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/download/v-2cdf2a6e0df3956f/verify_dataset.py",
+      "hf_path": "verify_dataset.py",
+      "sha256": "f4a4bb7f565cdbd075c520621f881876b491eaed91a5e6e70afb31e4753f9834"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "Validation calendar_identity auc": 0.4835145926947546,
+      "Validation calendar_identity brier": 0.25037123270507866,
+      "Validation full_model auc": 0.8960809939048806,
+      "Validation full_model brier": 0.11963301140244259,
+      "Validation majority_prior auc": 0.5,
+      "Validation majority_prior brier": 0.24869170914735844
+    },
+    "scope": "Existing unmodified runner baseline on public validation only; no holdout scoring"
+  },
+  "configs": [],
+  "dataset": "ca-beach-advisory-duration",
+  "documents": [
+    [
+      "README.md",
+      "Loading and reproduction"
+    ],
+    [
+      "evaluation.json",
+      "Measured baseline"
+    ],
+    [
+      "LICENSE.md",
+      "Licence and attribution"
+    ]
+  ],
+  "domain": "California State Water Resources Control Board (Beach Monitoring Program, Division of Water Quality)",
+  "evaluation_use": "retrospective_research",
+  "github_repository": "earino/factory-ca-beach-advisory-duration",
+  "hf_repository": "earino/factory-ca-beach-advisory-duration",
+  "licenses": {
+    "attribution": "Contains information from the California State Water Resources Control Board, \"Beach Advisories (Postings and Closures) and Beach Water Quality Monitoring\" (data.ca.gov), made available under the Open Data Commons Attribution License (ODC-By) v1.0.",
+    "citation": "",
+    "code": "MIT",
+    "compilation_scope": "Our additional compilation rights only; upstream terms remain in force.",
+    "data_compilation": "CC0-1.0",
+    "source_data": "Open Data Commons Attribution License (ODC-By) v1.0"
+  },
+  "limitations": [
+    "Current-vintage retrospective file: end dates reflect later edits and the extract was refreshed in October 2026, so it demonstrates what a model can learn from this register, not that the 7-day outcome was available to an operator in real time.",
+    "Exact column names and value codings were not verified against the dictionary PDF within this selection pass; the build step must confirm them before the split is frozen, and the frozen boundaries assume the file reaches back to at least the 2005-2015 train window.",
+    "No rainfall, tide, oceanographic or sampling-result covariates are used; weather is a major driver of posting persistence, so the model is deliberately limited to register-available fields.",
+    "Reporting is by county health officers with heterogeneous protocols, so county and beach effects partly encode administrative practice rather than environmental persistence.",
+    "The 7-day threshold is a policy choice, not a natural break; results should be reported against at least one alternative threshold (for example 3 and 14 days) to show sensitivity.",
+    "Beaches outside participating jurisdictions and advisory episodes never entered into the state register are absent, so the population is the reporting frame, not all California beaches.",
+    "Underlying episodes are submitted by county agencies; the ODC-By grant is the publisher's over this dataset and does not relicense any upstream county record on other terms, and attribution must travel with any redistribution. Our own contribution may be released CC0, but that does not alter upstream rights.",
+    "Current-vintage retrospective file: removal dates reflect later edits and the extract was refreshed in 2026, so this shows what a model can learn from the register, not that the seven-day outcome was known to an operator at issuance.",
+    "No full-row availability ledger was observed; exact header spellings, date fill rates and historical field availability remain assumed and are confirmed or refuted by the builder checks at run time.",
+    "AdvisoryType does not expose a separable permanent-posting code in the observed publisher data, so permanent postings folded into the posting class cannot be removed by class alone; the population wording was corrected rather than pretending an unobservable exclusion.",
+    "Repeated rows sharing a beach, issue date and class are removed deterministically by keeping the earliest source row; where a duplicate group carries differing removal dates the retained label is one of several recorded outcomes.",
+    "Station matching uses an identifier tier, a beach-name-plus-county tier and a beach-name-only tier, so same-named beaches in different jurisdictions can over-merge and inflate station counts.",
+    "Duration is a whole-calendar-day difference, so a posting whose removal date equals the issue date plus exactly seven days counts as persistent; sub-day timing is not representable.",
+    "No rainfall, tide, oceanographic or sampling-result covariates are used; weather is a major driver of posting persistence, so the model is limited to register-available fields.",
+    "The seven-day threshold is a policy choice, not a natural break; sensitivity to three and fourteen days is not evaluated here.",
+    "Beaches outside participating jurisdictions and episodes never entered into the state register are absent, so the population is the reporting frame, not all California beaches.",
+    "No uncertainty interval; observed differences do not establish universal headroom"
+  ],
+  "post": {
+    "paragraphs": [
+      "When a county health officer issues a new beach water-quality posting, will that posting remain in force for at least seven days?",
+      "Population: Advisory records in the beach-advisories CSV whose advisory class is the posting class; closure and rain advisory records are excluded and counted, and a permanent-posting value is not separable in the observed AdvisoryType data so permanent postings that the publisher folds into the posting class remain included and are recorded as a limitation. The issue date comes from DateofAdvisory and must fall from 2005-01-01 through 2023-12-31; the removal date comes from DateOpened and must be present and on or after the issue date so the whole-day duration is defined. Records sharing a beach, issue date and class are collapsed to the earliest source row so repeated episode rows do not repeat the label. Records starting in the seven days before 2016-01-01, 2020-01-01 or 2024-01-01 are dropped by the boundary embargo. Records with a missing or negative duration are excluded because the label cannot be computed; they are never treated as negative.",
+      "Target: y = 1 if the advisory record is a posting (the bacteria-standard advisory class, not a sewage closure, not a pre-emptive rain advisory, not a permanent posting) and its recorded end date is at least 7 calendar days after its start date; y = 0 if it ends within 7 days. Records with no end date (still open at extraction) or with end date before start date are excluded.",
+      "Prediction time: The advisory issue date, day 0, taken from DateofAdvisory. Only the advisory class, issue date, beach identity, county, station inventory and earlier posting issue dates are used. For duration rates only earlier training-split records whose recorded removal date closed before this row and before 2016-01-01 are used. DateOpened, DURATION CALCULATED, the spatial extent fields and the derived duration are withheld.",
+      "Splits: Chronological by advisory start date, no random shuffling: train = 2005-01-01 through 2015-12-31; eval = 2016-01-01 through 2019-12-31; holdout = 2020-01-01 through 2023-12-31. Boundary embargo: any record whose start date falls in the 7 days before a split boundary is dropped, and any record whose end date crosses a boundary is retained only in the earlier split but excluded from feature/label computation for the later split. If the observed earliest year is later than 2005, the train window starts at the first complete calendar year instead, and the boundaries 2016/2020 are unchanged.",
+      "Outcome horizon: 7 days from advisory start.",
+      "Inputs: advisory_class: Advisory class; the population is restricted to the posting class, so this column is constant posting after filtering. It records the declared population control. AdvisoryType in the observed publisher data carries posting, closure, rain and null values; a permanent posting is not a separable code, so it remains inside the posting class and is recorded as a limitation.; start_month: Calendar month of the advisory issue date, known at day 0 and capturing seasonality in dry-weather runoff and sampling.; start_day_of_week: Day of week of the advisory issue date, known at day 0 and capturing weekday sampling and staffing patterns.; county: County or jurisdiction of the advisory or joined station, proxying local re-sampling protocol and signage practice. Missing values are the explicit UNKNOWN category, not zero.; beach_id: Stable hashed beach key built from the source beach identifier or beach name plus county; it is not the advisory row identifier.; prior_postings_365d: Count of earlier posting issue dates for the same beach in the trailing 365 days, strictly before the current issue date, computed on the deduplicated history; known at day 0 and not a label-derived rate.; prior_mean_closed_duration_days_365d: Mean recorded duration of earlier same-beach training postings whose recorded removal date is strictly before the scored issue date and whose issue date is in the trailing 365 days. Only training-split labels removed before 2016-01-01 are used, so eval and holdout labels never enter. Missingness is retained when no qualifying training record exists.; days_since_prior_posting: Days since the most recent earlier posting issue date for the same beach, or missing if none; known at day 0.; station_count: Number of station-inventory rows joined to the beach; missing when no station match, not zero.; latitude: Mean station latitude for the beach, falling back to the advisory coordinate; missing when unavailable.; longitude: Mean station longitude for the beach, falling back to the advisory coordinate; missing when unavailable.; monitoring_agency: Station or advisory monitoring agency; UNKNOWN when missing, not zero."
+    ],
+    "title": "Ca Beach Advisory Duration"
+  },
+  "publication_commits": {
+    "github": "3021a64efcae1db46cb13456dd996909dba1cc8c",
+    "huggingface": "3a6d7702267d54e9360ed2070b955f2b5af19e5d"
+  },
+  "qualification": {
+    "gate_version": "1.6.1",
+    "result": "PASSED"
+  },
+  "record_sha256": "ce685a029325d7adffcfd343a281b713a2f56aa3aec5b949852c60a5bec4489f",
+  "release_date": "2026-11-16",
+  "release_schema": "factory-1",
+  "release_tag": "v-2cdf2a6e0df3956f",
+  "schema_version": 1,
+  "site_revision": 1,
+  "source": {
+    "name": "California State Water Resources Control Board (Beach Monitoring Program, Division of Water Quality)",
+    "url": "https://publish.data.ca.gov/dataset/b9c8ce91-40ff-4ad3-8164-bc17c46afb44/resource/4744ce19-b2e6-48cc-9fe5-95f460bee7e0/download/beach-watch-data-dictionary.pdf"
+  },
+  "splits": {
+    "eval": {
+      "rows": 4350
+    },
+    "holdout": {
+      "rows": 4769
+    },
+    "train": {
+      "rows": 9942
+    }
+  },
+  "summary": "When a county health officer issues a new beach water-quality posting, will that posting remain in force for at least seven days?",
+  "task_type": "binary-classification",
+  "title": "Ca Beach Advisory Duration",
+  "urls": {
+    "catalog": "https://earino.github.io/dataset-factory-site/",
+    "github": "https://github.com/earino/factory-ca-beach-advisory-duration",
+    "github_release": "https://github.com/earino/factory-ca-beach-advisory-duration/releases/tag/v-2cdf2a6e0df3956f",
+    "huggingface": "https://huggingface.co/datasets/earino/factory-ca-beach-advisory-duration",
+    "huggingface_version": "https://huggingface.co/datasets/earino/factory-ca-beach-advisory-duration/tree/v-2cdf2a6e0df3956f",
+    "version": "https://earino.github.io/factory-ca-beach-advisory-duration/versions/v-2cdf2a6e0df3956f/",
+    "website": "https://earino.github.io/factory-ca-beach-advisory-duration/"
+  }
+}
